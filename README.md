@@ -61,13 +61,13 @@ Another relevant authoring tool component was also implemented in this scenario 
 In total, there are **three main endings**, which highly depend on whether the Bartender manages to help the Customer. As previously mentioned, the *BestEnding* is “hidden” behind a dialogue option only unlockable through a high Social Importance perspective of the Bartender. The *NeutralEnding* and *BadEnding* can both be achieved during the last stages of the dialogue without any restriction. Either way, once the scenario ends, there is a Unity UI indication of which ending was reached, alongside a final message related to empathy.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1edddb7c-1819-417d-8e3b-b3081aec5504" />
+  <img src="https://github.com/user-attachments/assets/60592612-f631-45d4-957b-c77c8d543c31" />
 </p>
 
 So far, the scenario’s third agent, the Drunkard, hasn’t really been mentioned… This character serves almost as a comic relief, interrupting the dialogue between the two other characters. These **interruptions are based in actions that command changes in dialogue states and in Meanings attributed to speak actions**, through which the conversation is expected to resume (speak actions with a *ResumeConversation* Meaning). The combination of these factors allows **smooth transitions between the Bartender-Customer dialogues and the Bartender-Drunkard dialogues**.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/60592612-f631-45d4-957b-c77c8d543c31" />
+  <img src="https://github.com/user-attachments/assets/d61355fc-0ed1-4970-a2c5-c83e559fac58" />
 </p>
 
 Finally, it is worth leaving some comments related to **Unity’s implementation of the scenario**:
