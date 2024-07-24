@@ -1,5 +1,5 @@
 # **Interactive Storytelling with the FAtiMA Toolkit**
-​"It was just another usual night at the run-dow Missed Chance when a mysterious customer ​interrupts the lethargic monoty of your job. Between poetry citations and random rants, try to figure out the stranger's story, exploring the different outcomes and paying attention to how your interactions influence the other character's emotions and responses..."
+​*It was just another usual night at the run-dow Missed Chance when a mysterious customer ​interrupts the lethargic monoty of your job. Between poetry citations and random rants, try to figure out the stranger's story, exploring the different outcomes and paying attention to how your interactions influence the other character's emotions and responses...*
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/bb905197-ad43-483c-a50e-878c030a734d" />
