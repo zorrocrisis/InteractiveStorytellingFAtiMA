@@ -2,8 +2,7 @@
 ​"It was just another usual night at the run-dow Missed Chance when a mysterious customer ​interrupts the lethargic monoty of your job. Between poetry citations and random rants, try to figure out the stranger's story, exploring the different outcomes and paying attention to how your interactions influence the other character's emotions and responses..."
 
 <p align="center">
-  <img src="![bartender](https://github.com/user-attachments/assets/bb905197-ad43-483c-a50e-878c030a734d)
-" />
+  <img src="https://github.com/user-attachments/assets/bb905197-ad43-483c-a50e-878c030a734d" />
 </p>
 
 This project, originally an evaluation component for the Artificial Intelligence in Games course (2023/2024), talking place in Instituto Superior Técnico, University of Lisbon, aimed to explore **interactive storytelling in video games** by exploiting the **[FAtiMA-Toolkit](https://github.com/GAIPS/FAtiMA-Toolkit)**, **which harnesses the power of emotional decision making, emotional appraisal and social importance to create and convey believable interactions**.
