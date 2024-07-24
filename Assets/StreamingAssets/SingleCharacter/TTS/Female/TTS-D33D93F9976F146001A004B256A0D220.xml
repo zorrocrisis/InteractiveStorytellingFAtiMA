@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LipSyncVisemes wavFile="TTS-D33D93F9976F146001A004B256A0D220.wav">
+  <viseme type="6" time="0.1" duration="0.075" />
+  <viseme type="7" time="0.175" duration="0.07" />
+  <viseme type="19" time="0.245" duration="0.06" />
+  <viseme type="8" time="0.305" duration="0.11" />
+  <viseme type="19" time="0.415" duration="0.045" />
+  <viseme type="19" time="0.46" duration="0.055" />
+  <viseme type="19" time="0.515" duration="0.055" />
+  <viseme type="8" time="0.57" duration="0.145" />
+  <viseme type="12" time="0.715" duration="0.095" />
+  <viseme type="2" time="0.81" duration="0.037" />
+  <viseme type="4" time="0.847" duration="0.037" />
+  <viseme type="21" time="0.884" duration="0.065" />
+  <viseme type="1" time="0.949" duration="0.095" />
+  <viseme type="19" time="1.044" duration="0.052" />
+  <viseme type="16" time="1.096" duration="0.052" />
+  <viseme type="17" time="1.148" duration="0.055" />
+  <viseme type="1" time="1.203" duration="0.065" />
+  <viseme type="19" time="1.268" duration="0.065" />
+  <viseme type="21" time="1.333" duration="0.065" />
+  <viseme type="6" time="1.398" duration="0.11" />
+  <viseme type="19" time="1.508" duration="0.08" />
+  <viseme type="15" time="1.588" duration="0.09" />
+  <viseme type="19" time="1.678" duration="0.065" />
+  <viseme type="4" time="1.743" duration="0.045" />
+  <viseme type="21" time="1.788" duration="0.075" />
+  <viseme type="6" time="1.863" duration="0.2" />
+  <viseme type="2" time="2.913" duration="0.05" />
+  <viseme type="6" time="2.963" duration="0.05" />
+  <viseme type="20" time="3.013" duration="0.075" />
+  <viseme type="4" time="3.088" duration="0.055" />
+  <viseme type="19" time="3.143" duration="0.055" />
+  <viseme type="20" time="3.198" duration="0.09" />
+  <viseme type="6" time="3.288" duration="0.08" />
+  <viseme type="15" time="3.368" duration="0.13" />
+  <viseme type="6" time="3.498" duration="0.065" />
+  <viseme type="1" time="3.563" duration="0.2" />
+</LipSyncVisemes>

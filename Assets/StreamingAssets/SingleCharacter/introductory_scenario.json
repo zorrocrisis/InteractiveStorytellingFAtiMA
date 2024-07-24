@@ -1,0 +1,563 @@
+{
+	"root":
+		{
+			"classId": 0,
+			"ScenarioName": "Introductory Scenario",
+			"Description": "Peter was hungry and decided to enter a restaurant so he could order food. However, the overall experience was disappointing...",
+			"Dialogues": [
+				{
+					"CurrentState": "WaitersExcuse",
+					"NextState": "PetersResponse",
+					"Meaning": "-",
+					"Style": "Rude",
+					"Utterance": "So what, it's a bit toasty... take it or leave it! We don't have more burgers!",
+					"UtteranceId": "TTS-DFAB9CD95ACD53ADB2D7A9E727090D88"
+				}, 
+				{
+					"CurrentState": "Start",
+					"NextState": "Greeting",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Hey.",
+					"UtteranceId": "TTS-A83E3CE9C182279E7ACCF52F6D313BC9"
+				}, 
+				{
+					"CurrentState": "ServingResponse",
+					"NextState": "WaitersExcuse",
+					"Meaning": "-",
+					"Style": "Rude",
+					"Utterance": "What in tarnation?? This is burnt!!",
+					"UtteranceId": "TTS-52BF204DFFA6516C33F0D22DA93F552D"
+				}, 
+				{
+					"CurrentState": "Start",
+					"NextState": "Greeting",
+					"Meaning": "-",
+					"Style": "Polite",
+					"Utterance": "Hello, how do you do?",
+					"UtteranceId": "TTS-D86644BF808DFE51E563C9405063A4BA"
+				}, 
+				{
+					"CurrentState": "Greeting",
+					"NextState": "Order",
+					"Meaning": "-",
+					"Style": "Polite",
+					"Utterance": "Hello, good sir! What would you like?",
+					"UtteranceId": "TTS-F85D6A6DDD3A90F46CD9BA5626BB27BF"
+				}, 
+				{
+					"CurrentState": "Order",
+					"NextState": "OrderResponse",
+					"Meaning": "-",
+					"Style": "Rude",
+					"Utterance": "I want the greatest damn hot dog you have, right away!",
+					"UtteranceId": "TTS-1DA46DC8060EF69F7943884BFFB1FAC1"
+				}, 
+				{
+					"CurrentState": "Greeting",
+					"NextState": "Order",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Hello, what would you like to order?",
+					"UtteranceId": "TTS-B826C0714EF8C30BC6281B191BE9ACE3"
+				}, 
+				{
+					"CurrentState": "Order",
+					"NextState": "OrderResponse",
+					"Meaning": "-",
+					"Style": "Polite",
+					"Utterance": "I would like a delicious hot dog with onion rings and ketchup, pretty please!",
+					"UtteranceId": "TTS-79E2AD54D2D8DE6FF03A3ADDB6442A6D"
+				}, 
+				{
+					"CurrentState": "OrderResponse",
+					"NextState": "ReOrder",
+					"Meaning": "-",
+					"Style": "Rude",
+					"Utterance": "Are you dumb? We only serve hamburgers here...",
+					"UtteranceId": "TTS-B0B63EBD16A58E5A44BEC0A8CA7BBE84"
+				}, 
+				{
+					"CurrentState": "Order",
+					"NextState": "OrderResponse",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "I would like a hot dog with chips.",
+					"UtteranceId": "TTS-F66B4D3658473A3D373CDF6DA1D3B375"
+				}, 
+				{
+					"CurrentState": "OrderResponse",
+					"NextState": "ReOrder",
+					"Meaning": "-",
+					"Style": "Polite",
+					"Utterance": "Apologies, sir, but we only serve hamburguers here.",
+					"UtteranceId": "TTS-6F56AA94613C74E5EF9E60D17274BB4D"
+				}, 
+				{
+					"CurrentState": "ReOrder",
+					"NextState": "ReOrderResponse",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Alright... I'll have a Krabby Patty burguer then.",
+					"UtteranceId": "TTS-DC4E49213F04844EF550B640C76EB15D"
+				}, 
+				{
+					"CurrentState": "PetersResponse",
+					"NextState": "End",
+					"Meaning": "-",
+					"Style": "Rude",
+					"Utterance": "Well, I'm not paying for this mess... See you never!",
+					"UtteranceId": "TTS-CE32D1DFA85DD47F2510C68D3F5D6FEB"
+				}, 
+				{
+					"CurrentState": "OrderResponse",
+					"NextState": "ReOrder",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Sorry, we only sell hamburgers.",
+					"UtteranceId": "TTS-90F8C01E4EB8893F9805115C45DC4970"
+				}, 
+				{
+					"CurrentState": "ServingResponse",
+					"NextState": "WaitersExcuse",
+					"Meaning": "-",
+					"Style": "Polite",
+					"Utterance": "Hmm... I do apologize but it seems the burger is a bit overdone...",
+					"UtteranceId": "TTS-7D8D4ECA52319133CB0AB687CDC409E5"
+				}, 
+				{
+					"CurrentState": "ReOrderResponse",
+					"NextState": "Waiting",
+					"Meaning": "-",
+					"Style": "Rude",
+					"Utterance": "Right! We're not responsible for any insects you find in your food, btw.",
+					"UtteranceId": "TTS-89BAC371D119BC2DFD6742B6824C831A"
+				}, 
+				{
+					"CurrentState": "ReOrder",
+					"NextState": "ReOrderResponse",
+					"Meaning": "-",
+					"Style": "Rude",
+					"Utterance": "What kind of hot dog place doesn't have hot dogs? Get me a burger!",
+					"UtteranceId": "TTS-F6F1D00B502959FE702C583AC9EF09C9"
+				}, 
+				{
+					"CurrentState": "ReOrderResponse",
+					"NextState": "Waiting",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Hamburger it is!",
+					"UtteranceId": "TTS-10303B36CA560C21F255B64FBD6A1D57"
+				}, 
+				{
+					"CurrentState": "Serving",
+					"NextState": "ServingResponse",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Here you go!",
+					"UtteranceId": "TTS-C0752DDF323BE4BADCC8B89C8647639F"
+				}, 
+				{
+					"CurrentState": "ReOrderResponse",
+					"NextState": "Waiting",
+					"Meaning": "-",
+					"Style": "Polite",
+					"Utterance": "Coming right up, my beautiful fellow enjoyer of food!",
+					"UtteranceId": "TTS-C67CAC795AA8241489DF1FB5DD9F5B50"
+				}, 
+				{
+					"CurrentState": "Serving",
+					"NextState": "ServingResponse",
+					"Meaning": "-",
+					"Style": "Polite",
+					"Utterance": "Your perfectly seasoned hamburger, dear sir!",
+					"UtteranceId": "TTS-DC1946DFC4F54D081B77BC5A36858BF4"
+				}, 
+				{
+					"CurrentState": "ServingResponse",
+					"NextState": "WaitersExcuse",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "WOW... The hamburger is a bit overdone, don't you think?",
+					"UtteranceId": "TTS-6E944655965CC5B722AAF76FDBB758CC"
+				}, 
+				{
+					"CurrentState": "Serving",
+					"NextState": "ServingResponse",
+					"Meaning": "-",
+					"Style": "Rude",
+					"Utterance": "Eat up and pay up...",
+					"UtteranceId": "TTS-6AE1033F599EE8DE88D616DB58FC24EA"
+				}, 
+				{
+					"CurrentState": "WaitersExcuse",
+					"NextState": "PetersResponse",
+					"Meaning": "-",
+					"Style": "Rude",
+					"Utterance": "Listen, I've seen nastier burgers... Just eat it!",
+					"UtteranceId": "TTS-3204D34E0551AD7CBC86A4356CADEC99"
+				}, 
+				{
+					"CurrentState": "ServingResponse",
+					"NextState": "WaitersExcuse",
+					"Meaning": "-",
+					"Style": "Rude",
+					"Utterance": "What the heck?! Even the Hamburglar wouldn't eat this!! It's burnt!!",
+					"UtteranceId": "TTS-22FC7E7186E75F0116B659BD9C8BB4BD"
+				}, 
+				{
+					"CurrentState": "WaitersExcuse",
+					"NextState": "PetersResponse",
+					"Meaning": "-",
+					"Style": "Polite",
+					"Utterance": "You're right sir, but unfortunately we don't have any more burgers...",
+					"UtteranceId": "TTS-0F8C17790946DF52CC29BB710989C786"
+				}, 
+				{
+					"CurrentState": "PetersResponse",
+					"NextState": "End",
+					"Meaning": "-",
+					"Style": "Polite",
+					"Utterance": "Oh my... I don't believe it's fair for me to pay. Farewell!",
+					"UtteranceId": "TTS-3D57DEA5B74D53D6A38218783923453D"
+				}, 
+				{
+					"CurrentState": "WaitersExcuse",
+					"NextState": "PetersResponse",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "It is a bit burnt... We don't have any more burgers though.",
+					"UtteranceId": "TTS-BD0CCB88C337CE88DD4792911386CF05"
+				}, 
+				{
+					"CurrentState": "ReOrder",
+					"NextState": "ReOrderResponse",
+					"Meaning": "-",
+					"Style": "Polite",
+					"Utterance": "Oh, that is a shame... I would like a hamburger then, please.",
+					"UtteranceId": "TTS-A381E7817669AB73132ACF1CC07A34A5"
+				}, 
+				{
+					"CurrentState": "Greeting",
+					"NextState": "Order",
+					"Meaning": "-",
+					"Style": "Rude",
+					"Utterance": "Sup. What does that fat dad bod want?",
+					"UtteranceId": "TTS-D648BAD83F12146A40F07E64169A1EED"
+				}, 
+				{
+					"CurrentState": "PetersResponse",
+					"NextState": "End",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Well, I don't think I should pay for this... Goodbye!",
+					"UtteranceId": "TTS-C689E5617C6182426B479EB82B52816A"
+				}, 
+				{
+					"CurrentState": "Greeting",
+					"NextState": "Order",
+					"Meaning": "-",
+					"Style": "Polite",
+					"Utterance": "Greetings, what would you like to eat?",
+					"UtteranceId": "TTS-77DCCEBBACB310314D8C386F10125FFF"
+				}, 
+				{
+					"CurrentState": "Greeting",
+					"NextState": "Order",
+					"Meaning": "-",
+					"Style": "Rude",
+					"Utterance": "Oh yey, another customer...",
+					"UtteranceId": "TTS-7BFC24BFFA1FBC6672411AD655D185BD"
+				}, 
+				{
+					"CurrentState": "Order",
+					"NextState": "OrderResponse",
+					"Meaning": "-",
+					"Style": "Polite",
+					"Utterance": "Would you kindly get me a hot dog with cheese?",
+					"UtteranceId": "TTS-7DB943C672D4F41F60DD0D7D80EA428A"
+				}, 
+				{
+					"CurrentState": "Order",
+					"NextState": "OrderResponse",
+					"Meaning": "-",
+					"Style": "Rude",
+					"Utterance": "Get me one of those spicy hot dogs, pronto!",
+					"UtteranceId": "TTS-5C3D7B34F3C25EA385113883A7F2204B"
+				}, 
+				{
+					"CurrentState": "OrderResponse",
+					"NextState": "ReOrder",
+					"Meaning": "-",
+					"Style": "Rude",
+					"Utterance": "We don't serve hot dogs, man... Read the menu, will you?",
+					"UtteranceId": "TTS-CC577DFE58643674D3D78100A0B0E994"
+				}, 
+				{
+					"CurrentState": "OrderResponse",
+					"NextState": "ReOrder",
+					"Meaning": "-",
+					"Style": "Polite",
+					"Utterance": "We only serve hamburgers, pardon for the inconvenience...",
+					"UtteranceId": "TTS-DF5E34AA81325889DE6667B02AE8D189"
+				}, 
+				{
+					"CurrentState": "PetersResponse",
+					"NextState": "End",
+					"Meaning": "-",
+					"Style": "Polite",
+					"Utterance": "How unlucky... I believe this mistake should be on the house. Bye!",
+					"UtteranceId": "TTS-759DC10F0B596FFACB5BA1D75F516E66"
+				}, 
+				{
+					"CurrentState": "ReOrder",
+					"NextState": "ReOrderResponse",
+					"Meaning": "-",
+					"Style": "Rude",
+					"Utterance": "What?! Get me a hamburger before I call my mother (Karen)!",
+					"UtteranceId": "TTS-956E73EC2B50019E4D3047F8EDBAE919"
+				}, 
+				{
+					"CurrentState": "ReOrder",
+					"NextState": "ReOrderResponse",
+					"Meaning": "-",
+					"Style": "Polite",
+					"Utterance": "How sad... In that case, I would like a hamburger, if possible.",
+					"UtteranceId": "TTS-6C7784F3BD1F4C6C9A1779F4475DA5DC"
+				}, 
+				{
+					"CurrentState": "ReOrderResponse",
+					"NextState": "Waiting",
+					"Meaning": "-",
+					"Style": "Rude",
+					"Utterance": "Enjoy waiting for thirty minutes hehe",
+					"UtteranceId": "TTS-17F8973AF2D7497C18A8569639C01E37"
+				}, 
+				{
+					"CurrentState": "ReOrderResponse",
+					"NextState": "Waiting",
+					"Meaning": "-",
+					"Style": "Polite",
+					"Utterance": "Right away, sir!",
+					"UtteranceId": "TTS-580BEE066E3691E3764C75FE20551608"
+				}, 
+				{
+					"CurrentState": "Serving",
+					"NextState": "ServingResponse",
+					"Meaning": "-",
+					"Style": "Polite",
+					"Utterance": "Enjoy, bon appetit!",
+					"UtteranceId": "TTS-922A567A10F400755BF7BCCED037A7A6"
+				}, 
+				{
+					"CurrentState": "Serving",
+					"NextState": "ServingResponse",
+					"Meaning": "-",
+					"Style": "Rude",
+					"Utterance": "Here, don't mind the black bits...",
+					"UtteranceId": "TTS-1D9CC572CB3B83B59A010EBBB5E88FCD"
+				}, 
+				{
+					"CurrentState": "ServingResponse",
+					"NextState": "WaitersExcuse",
+					"Meaning": "-",
+					"Style": "Polite",
+					"Utterance": "I'm sorry, but the burger is a bit burnt, wouldn't you agree?...",
+					"UtteranceId": "TTS-0AEA93D8A9FEA1118AEC97D4E05FB2D0"
+				}, 
+				{
+					"CurrentState": "Start",
+					"NextState": "Greeting",
+					"Meaning": "-",
+					"Style": "Rude",
+					"Utterance": "What's kicking, little chicken??",
+					"UtteranceId": "TTS-DD867D2A8CAD48CC2173644C5EF21A68"
+				}, 
+				{
+					"CurrentState": "Start",
+					"NextState": "Greeting",
+					"Meaning": "-",
+					"Style": "Rude",
+					"Utterance": "Hey... Didn't know they were hiring cave trolls...",
+					"UtteranceId": "TTS-3F618EF28D370604210114E131389EAA"
+				}, 
+				{
+					"CurrentState": "Start",
+					"NextState": "Greeting",
+					"Meaning": "-",
+					"Style": "Polite",
+					"Utterance": "Greetings, may I sit down?",
+					"UtteranceId": "TTS-92230DC93807FC487BCE7B9A3D1FD49A"
+				}, 
+				{
+					"CurrentState": "WaitersExcuse",
+					"NextState": "PetersResponse",
+					"Meaning": "-",
+					"Style": "Polite",
+					"Utterance": "Truly a mistake on our part... But we don't have more burgers.",
+					"UtteranceId": "TTS-A1A65D6D459011FAE83CEB908D492F53"
+				}],
+			"Characters": [
+				{
+					"KnowledgeBase":
+						{
+							"Perspective": "Waiter",
+							"Knowledge":
+								{
+									"SELF":
+										{
+											"Has(Floor)": "Peter, 1",
+											"Has(Hamburger)": "1, 1",
+											"Has(Money)": "0, 1",
+											"DialogueState(Peter)": "Start, 1"
+										}
+								}
+						},
+					"BodyName": "Male",
+					"VoiceName": "Male",
+					"EmotionalState":
+						{
+							"Mood": 0,
+							"initialTick": 0,
+							"EmotionalPool": [],
+							"AppraisalConfiguration":
+								{
+									"HalfLifeDecayConstant": 0.5,
+									"EmotionInfluenceOnMoodFactor": 0.3,
+									"MoodInfluenceOnEmotionFactor": 0.3,
+									"MinimumMoodValueForInfluencingEmotions": 0.5,
+									"EmotionalHalfLifeDecayTime": 15,
+									"MoodHalfLifeDecayTime": 60
+								}
+						},
+					"AutobiographicMemory":
+						{
+							"Tick": 0,
+							"records": []
+						},
+					"OtherAgents":
+						{
+							"dictionary": []
+						},
+					"Goals": []
+				}, 
+				{
+					"KnowledgeBase":
+						{
+							"Perspective": "Peter",
+							"Knowledge":
+								{
+									"SELF":
+										{
+											"Has(Floor)": "Peter, 1",
+											"Has(Money)": "15, 1",
+											"DialogueState(Waiter)": "Start, 1",
+											"Is(Hungry)": "True, 1"
+										}
+								}
+						},
+					"BodyName": "Male",
+					"VoiceName": "Male",
+					"EmotionalState":
+						{
+							"Mood": 0,
+							"initialTick": 0,
+							"EmotionalPool": [],
+							"AppraisalConfiguration":
+								{
+									"HalfLifeDecayConstant": 0.5,
+									"EmotionInfluenceOnMoodFactor": 0.3,
+									"MoodInfluenceOnEmotionFactor": 0.3,
+									"MinimumMoodValueForInfluencingEmotions": 0.5,
+									"EmotionalHalfLifeDecayTime": 15,
+									"MoodHalfLifeDecayTime": 60
+								}
+						},
+					"AutobiographicMemory":
+						{
+							"Tick": 0,
+							"records": []
+						},
+					"OtherAgents":
+						{
+							"dictionary": []
+						},
+					"Goals": []
+				}],
+			"WorldModel":
+				{
+					"Effects":
+						{
+							"dictionary": [
+								{
+									"key": "Event(Action-End, [s], Speak(*, [ns], *, *), [t])",
+									"value": [
+										{
+											"PropertyName": "DialogueState([s])",
+											"NewValue": "[ns]",
+											"ObserverAgent": "[t]"
+										}, 
+										{
+											"PropertyName": "Has(Floor)",
+											"NewValue": "[t]",
+											"ObserverAgent": "*"
+										}, 
+										{
+											"PropertyName": "DialogueState([t])",
+											"NewValue": "[ns]",
+											"ObserverAgent": "[s]"
+										}]
+								}, 
+								{
+									"key": "Event(Action-End, [s], Cook, [t])",
+									"value": [
+										{
+											"PropertyName": "Has(Floor)",
+											"NewValue": "Waiter",
+											"ObserverAgent": "*"
+										}, 
+										{
+											"PropertyName": "DialogueState([s])",
+											"NewValue": "Serving",
+											"ObserverAgent": "[t]"
+										}, 
+										{
+											"PropertyName": "DialogueState([t])",
+											"NewValue": "Serving",
+											"ObserverAgent": "[s]"
+										}, 
+										{
+											"PropertyName": "Has(Hamburger)",
+											"NewValue": 0,
+											"ObserverAgent": "Waiter"
+										}]
+								}]
+						},
+					"Priorities":
+						{
+							"dictionary": [
+								{
+									"key": "Event(Action-End, [s], Speak(*, [ns], *, *), [t])",
+									"value": 1
+								}, 
+								{
+									"key": "Event(Action-End, Waiter, Cook, *)",
+									"value": 1
+								}, 
+								{
+									"key": "Event(Action-End, [s], Cook, *)",
+									"value": 1
+								}, 
+								{
+									"key": "Event(Action-End, [s], Cook, [t])",
+									"value": 1
+								}]
+						}
+				}
+		},
+	"types": [
+		{
+			"TypeId": 0,
+			"ClassName": "IntegratedAuthoringTool.IntegratedAuthoringToolAsset, IntegratedAuthoringTool, Version=1.7.0.0, Culture=neutral, PublicKeyToken=null"
+		}]
+}

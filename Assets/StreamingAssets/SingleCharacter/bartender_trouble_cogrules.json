@@ -1,0 +1,423 @@
+[
+"EmotionalDecisionMakingAsset", 
+{
+	"root":
+		{
+			"classId": 0,
+			"ActionTendencies": [
+				{
+					"Action": "Speak([cs], [ns], [mean], [style])",
+					"Target": "[t]",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState([t]) = [cs]", "Has(Floor) = SELF", "ValidDialogue([cs], [ns], [mean], [style]) = True"]
+						},
+					"Priority": 1
+				}, 
+				{
+					"Action": "Speak([cs], [ns], Good1, Empathic)",
+					"Target": "[t]",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState([t]) = [cs]", "Has(Floor) = SELF", "ValidDialogue([cs], [ns], Good1, Empathic) = True"]
+						},
+					"Priority": 5
+				}, 
+				{
+					"Action": "Speak([cs], [ns], Bad1, Heartless)",
+					"Target": "[t]",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState([t]) = [cs]", "Has(Floor) = SELF", "ValidDialogue([cs], [ns], Bad1, Heartless) = True"]
+						},
+					"Priority": 5
+				}, 
+				{
+					"Action": "Speak([cs], [ns], Happy1, Nostalgic)",
+					"Target": "[t]",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(*) = [cs]", "Has(Floor) = SELF", "ValidDialogue([cs], [ns], Happy1, Nostalgic) = True"]
+						},
+					"Priority": 5
+				}, 
+				{
+					"Action": "Speak([cs], [ns], Sad1, Sad)",
+					"Target": "[t]",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(*) = [cs]", "Has(Floor) = SELF", "ValidDialogue([cs], [ns], Sad1, Sad) = True"]
+						},
+					"Priority": 5
+				}, 
+				{
+					"Action": "Speak([cs], [ns], Inspiration1, [style])",
+					"Target": "[t]",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(*) = [cs]", "Has(Floor) = SELF", "ValidDialogue([cs], [ns], Inspiration1, [style]) = True"]
+						},
+					"Priority": 2
+				}, 
+				{
+					"Action": "Speak([cs], [ns], Inspiration2, [style])",
+					"Target": "[t]",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(*) = [cs]", "Has(Floor) = SELF", "ValidDialogue([cs], [ns], Inspiration2, [style]) = True"]
+						},
+					"Priority": 2
+				}, 
+				{
+					"Action": "Speak([cs], [ns], Inspiration3, [style])",
+					"Target": "[t]",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(*) = [cs]", "Has(Floor) = SELF", "ValidDialogue([cs], [ns], Inspiration3, [style]) = True"]
+						},
+					"Priority": 2
+				}, 
+				{
+					"Action": "Speak([cs], [ns], Inspiration4, [style])",
+					"Target": "[t]",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(*) = [cs]", "Has(Floor) = SELF", "ValidDialogue([cs], [ns], Inspiration4, [style]) = True"]
+						},
+					"Priority": 2
+				}, 
+				{
+					"Action": "Speak([cs], [ns], ChitChat1, [style])",
+					"Target": "[t]",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(*) = [cs]", "Has(Floor) = SELF", "ValidDialogue([cs], [ns], ChitChat1, [style]) = True"]
+						},
+					"Priority": 2
+				}, 
+				{
+					"Action": "Speak([cs], [ns], ChitChat2, [style])",
+					"Target": "[t]",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(*) = [cs]", "Has(Floor) = SELF", "ValidDialogue([cs], [ns], ChitChat2, [style]) = True"]
+						},
+					"Priority": 2
+				}, 
+				{
+					"Action": "Speak([cs], [ns], ChitChat3, [style])",
+					"Target": "[t]",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(*) = [cs]", "Has(Floor) = SELF", "ValidDialogue([cs], [ns], ChitChat3, [style]) = True"]
+						},
+					"Priority": 2
+				}, 
+				{
+					"Action": "Speak([cs], [ns], ChitChat4, [style])",
+					"Target": "[t]",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(*) = [cs]", "Has(Floor) = SELF", "ValidDialogue([cs], [ns], ChitChat4, [style]) = True"]
+						},
+					"Priority": 2
+				}, 
+				{
+					"Action": "Speak([cs], [ns], Good2, Empathic)",
+					"Target": "[t]",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState([t]) = [cs]", "Has(Floor) = SELF", "ValidDialogue([cs], [ns], Good2, Empathic) = True"]
+						},
+					"Priority": 5
+				}, 
+				{
+					"Action": "Speak([cs], [ns], Bad2, Heartless)",
+					"Target": "[t]",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState([t]) = [cs]", "Has(Floor) = SELF", "ValidDialogue([cs], [ns], Bad2, Heartless) = True"]
+						},
+					"Priority": 5
+				}, 
+				{
+					"Action": "Speak([cs], [ns], Sad2, Sad)",
+					"Target": "[t]",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(*) = [cs]", "Has(Floor) = SELF", "ValidDialogue([cs], [ns], Sad2, Sadness) = True"]
+						},
+					"Priority": 5
+				}, 
+				{
+					"Action": "Speak([cs], [ns], Happy2, Nostalgic)",
+					"Target": "[t]",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(*) = [cs]", "Has(Floor) = SELF", "ValidDialogue([cs], [ns], Happy2, Nostalgic) = True"]
+						},
+					"Priority": 5
+				}, 
+				{
+					"Action": "Speak([cs], [ns], Happy3, Nostalgic)",
+					"Target": "[t]",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(*) = [cs]", "Has(Floor) = SELF", "ValidDialogue([cs], [ns], Happy3, Nostalgic) = True"]
+						},
+					"Priority": 5
+				}, 
+				{
+					"Action": "Speak([cs], [ns], Sad3, Sad)",
+					"Target": "[t]",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(*) = [cs]", "Has(Floor) = SELF", "ValidDialogue([cs], [ns], Sad3, Sadness) = True"]
+						},
+					"Priority": 5
+				}, 
+				{
+					"Action": "Speak(DeepConversation, DeepConversationResponse, [mean], [style])",
+					"Target": "Bartender",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(*) = DeepConversation", "Has(Floor) = Customer", "ValidDialogue(DeepConversation, DeepConversationResponse, [mean], [style]) = True", "SI(Bartender) > 1"]
+						},
+					"Priority": 10
+				}, 
+				{
+					"Action": "Speak(Conversation3, NoPayment, [mean], [style])",
+					"Target": "Bartender",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(*) = Conversation3", "Has(Floor) = Customer", "ValidDialogue(Conversation3, NoPayment, [mean], [style]) = True", "SI(Bartender) > 5"]
+						},
+					"Priority": 10
+				}, 
+				{
+					"Action": "Speak([cs], [ns], ResumeConversations, Heartless)",
+					"Target": "[t]",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(*) = [cs]", "Has(Floor) = SELF", "ValidDialogue([cs], [ns], ResumeConversation, Heartless) = True"]
+						},
+					"Priority": 5
+				}, 
+				{
+					"Action": "Speak([cs], [ns], ResumeConversations, Empathic)",
+					"Target": "[t]",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(*) = [cs]", "Has(Floor) = SELF", "ValidDialogue([cs], [ns], ResumeConversation, Empathic) = True"]
+						},
+					"Priority": 5
+				}]
+		},
+	"types": [
+		{
+			"TypeId": 0,
+			"ClassName": "EmotionalDecisionMaking.EmotionalDecisionMakingAsset, EmotionalDecisionMaking, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null"
+		}]
+},
+"EmotionalAppraisalAsset", 
+{
+	"root":
+		{
+			"classId": 0,
+			"Description": null,
+			"AppraisalRules":
+				{
+					"AppraisalWeight": 1,
+					"Rules": [
+						{
+							"EventName": "Event(Action-End, *, Speak(*, *, *, Nostalgic), SELF)",
+							"Conditions":
+								{
+									"Set": []
+								},
+							"AppraisalVariables":
+								{
+									"AppraisalVariables": [
+										{
+											"Name": "Desirability",
+											"Value": 5,
+											"Target": "-"
+										}]
+								}
+						}, 
+						{
+							"EventName": "Event(Action-End, Customer, Speak(*, *, *, Empathic), Bartender)",
+							"Conditions":
+								{
+									"Set": []
+								},
+							"AppraisalVariables":
+								{
+									"AppraisalVariables": [
+										{
+											"Name": "Desirability",
+											"Value": 5,
+											"Target": "-"
+										}, 
+										{
+											"Name": "Praiseworthiness",
+											"Value": 5,
+											"Target": "Customer"
+										}]
+								}
+						}, 
+						{
+							"EventName": "Event(Action-End, Bartender, Speak(*, *, *, Empathic), Customer)",
+							"Conditions":
+								{
+									"Set": []
+								},
+							"AppraisalVariables":
+								{
+									"AppraisalVariables": [
+										{
+											"Name": "Desirability",
+											"Value": 5,
+											"Target": "-"
+										}, 
+										{
+											"Name": "Praiseworthiness",
+											"Value": 5,
+											"Target": "Bartender"
+										}]
+								}
+						}, 
+						{
+							"EventName": "Event(Action-End, Bartender, Speak(*, *, *, Heartless), Customer)",
+							"Conditions":
+								{
+									"Set": []
+								},
+							"AppraisalVariables":
+								{
+									"AppraisalVariables": [
+										{
+											"Name": "Desirability",
+											"Value": -5,
+											"Target": "-"
+										}, 
+										{
+											"Name": "Praiseworthiness",
+											"Value": -5,
+											"Target": "Bartender"
+										}]
+								}
+						}, 
+						{
+							"EventName": "Event(Action-End, Customer, Speak(*, *, *, Heartless), Bartender)",
+							"Conditions":
+								{
+									"Set": []
+								},
+							"AppraisalVariables":
+								{
+									"AppraisalVariables": [
+										{
+											"Name": "Desirability",
+											"Value": -5,
+											"Target": "-"
+										}, 
+										{
+											"Name": "Praiseworthiness",
+											"Value": -5,
+											"Target": "Customer"
+										}]
+								}
+						}, 
+						{
+							"EventName": "Event(Action-End, *, Speak(*, *, *, Sad), SELF)",
+							"Conditions":
+								{
+									"Set": []
+								},
+							"AppraisalVariables":
+								{
+									"AppraisalVariables": [
+										{
+											"Name": "Desirability",
+											"Value": -3,
+											"Target": "-"
+										}]
+								}
+						}]
+				}
+		},
+	"types": [
+		{
+			"TypeId": 0,
+			"ClassName": "EmotionalAppraisal.EmotionalAppraisalAsset, EmotionalAppraisal, Version=1.4.1.0, Culture=neutral, PublicKeyToken=null"
+		}]
+},
+"SocialImportanceAsset", 
+{
+	"root":
+		{
+			"classId": 0,
+			"AttributionRules": [
+				{
+					"RuleName": "Customer Building Trust",
+					"Target": "[t]",
+					"Value": 5,
+					"Conditions":
+						{
+							"Set": ["Mood(SELF) > -3.5", "Can(Serve) = False", "Is(Drunkard) = False", "CanGainSI([t]) = True"]
+						}
+				}, 
+				{
+					"RuleName": "Friendship",
+					"Target": "[t]",
+					"Value": 20,
+					"Conditions":
+						{
+							"Set": ["Mood(SELF) > 4.5", "Is(Drunkard) = False", "CanGainSI([t]) = True"]
+						}
+				}]
+		},
+	"types": [
+		{
+			"TypeId": 0,
+			"ClassName": "SocialImportance.SocialImportanceAsset, SocialImportance, Version=1.5.0.0, Culture=neutral, PublicKeyToken=null"
+		}]
+},
+"CommeillFautAsset", 
+{
+	"root":
+		{
+			"classId": 0,
+			"SocialExchanges": []
+		},
+	"types": [
+		{
+			"TypeId": 0,
+			"ClassName": "CommeillFaut.CommeillFautAsset, CommeillFaut, Version=1.7.0.0, Culture=neutral, PublicKeyToken=null"
+		}]
+}
+]

@@ -1,0 +1,1423 @@
+{
+	"root":
+		{
+			"classId": 0,
+			"ScenarioName": "Bartender Trouble",
+			"Description": "The run-down “Missed Chance” establishment was built a forgettable time ago in downtown Saint Sophia, being the birthplace of strange conversations and unlikely interactions between the bartender (the player) and its customers...",
+			"Dialogues": [
+				{
+					"CurrentState": "Start",
+					"NextState": "Greeting",
+					"Meaning": "ChitChat3",
+					"Style": "-",
+					"Utterance": "...It's a bit quiet tonight, isn't it?",
+					"UtteranceId": "TTS-34B0C98A8330AEEF2AA91C15F27D5D65"
+				}, 
+				{
+					"CurrentState": "Greeting",
+					"NextState": "Order",
+					"Meaning": "ChitChat2",
+					"Style": "-",
+					"Utterance": "Evening. What can I get you?",
+					"UtteranceId": "TTS-1285BA62557757B5DED82A53C5666C18"
+				}, 
+				{
+					"CurrentState": "OrderResponse",
+					"NextState": "Recommendation",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "From the look of you, I'm guessing you're not celebrating. Something strong?",
+					"UtteranceId": "TTS-40E5B468BDE2B54A8D1618C7ECA07786"
+				}, 
+				{
+					"CurrentState": "Order",
+					"NextState": "Interruption1",
+					"Meaning": "ChitChat3",
+					"Style": "-",
+					"Utterance": "The bartender knows best...",
+					"UtteranceId": "TTS-B0A1B413B5F51ABB6A3715B1804FBA1E"
+				}, 
+				{
+					"CurrentState": "Order",
+					"NextState": "Interruption1",
+					"Meaning": "ChitChat2",
+					"Style": "-",
+					"Utterance": "Been a long day... Any suggestions?",
+					"UtteranceId": "TTS-E08C1139F05248813EBD942A520BEEBD"
+				}, 
+				{
+					"CurrentState": "OrderResponse",
+					"NextState": "Recommendation",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "The tired eyes say “beer” but the dragging of your feet says something stronger.",
+					"UtteranceId": "TTS-21E506A07B1B65565BF88969F1BDAF06"
+				}, 
+				{
+					"CurrentState": "Clarity2Response",
+					"NextState": "Conversation2",
+					"Meaning": "ChitChat3",
+					"Style": "-",
+					"Utterance": "You know... When you hit rock bottom, the only way to go is up!",
+					"UtteranceId": "TTS-BF8E4B8A3A0325FDDC27CCB05C3DB23D"
+				}, 
+				{
+					"CurrentState": "OrderResponse",
+					"NextState": "Recommendation",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "We don't sell any \"forget-me\" shots, buddy... ",
+					"UtteranceId": "TTS-7E36ABEA9EE3AC3C1173DF836CA776F6"
+				}, 
+				{
+					"CurrentState": "FinalOrder",
+					"NextState": "CustomerDrinks1",
+					"Meaning": "ChitChat2",
+					"Style": "-",
+					"Utterance": "Right away, big boss!",
+					"UtteranceId": "TTS-AE1DF5BA705BBB54ABE20A67C2F586E7"
+				}, 
+				{
+					"CurrentState": "Greeting",
+					"NextState": "Order",
+					"Meaning": "ChitChat3",
+					"Style": "-",
+					"Utterance": "Hi. What do you want to drink?",
+					"UtteranceId": "TTS-7318C1D3E044580AA9D05DBA927B6AB1"
+				}, 
+				{
+					"CurrentState": "Greeting",
+					"NextState": "Order",
+					"Meaning": "ChitChat1",
+					"Style": "-",
+					"Utterance": "Welcome to the \"Missed Chance\"... What will it be?",
+					"UtteranceId": "TTS-A64AAF2257FAA5D70B4406CC33FA7337"
+				}, 
+				{
+					"CurrentState": "KickedOut",
+					"NextState": "KickedOutResponse",
+					"Meaning": "ChitChat2",
+					"Style": "-",
+					"Utterance": "This isn't even enough! You're lucky I don't call the police",
+					"UtteranceId": "TTS-79C906892A175F8EC7508E4D58F3DF61"
+				}, 
+				{
+					"CurrentState": "Discussion1Response",
+					"NextState": "CustomerDrinks2",
+					"Meaning": "Bad1",
+					"Style": "Heartless",
+					"Utterance": "I don't care, as long as you keep drinking and paying...",
+					"UtteranceId": "TTS-6E9C5060A67BD18B5C07045A0A56FECD"
+				}, 
+				{
+					"CurrentState": "Recommendation",
+					"NextState": "FinalOrder",
+					"Meaning": "Good2",
+					"Style": "Empathic",
+					"Utterance": "Get me a glass of absynthe.",
+					"UtteranceId": "TTS-E849454B58F1E8827E1A7D2BE586C10E"
+				}, 
+				{
+					"CurrentState": "Recommendation",
+					"NextState": "FinalOrder",
+					"Meaning": "Bad2",
+					"Style": "Heartless",
+					"Utterance": "Very funny... Get me a beer.",
+					"UtteranceId": "TTS-D37D9BCDA3AE012048038F2BF55CDCC5"
+				}, 
+				{
+					"CurrentState": "FinalOrder",
+					"NextState": "CustomerDrinks1",
+					"Meaning": "ChitChat1",
+					"Style": "-",
+					"Utterance": "Coming right up.",
+					"UtteranceId": "TTS-DE44AB5784DCCAB1FE68D4F7878E56A3"
+				}, 
+				{
+					"CurrentState": "Clarity1",
+					"NextState": "Clarity1Response",
+					"Meaning": "Inspiration3",
+					"Style": "-",
+					"Utterance": "'Do not stand at my grave and weep. I am not there. I do not sleep.'",
+					"UtteranceId": "TTS-CD0A9DAA8698276F4671FF93BFFAABD2"
+				}, 
+				{
+					"CurrentState": "Interruption2",
+					"NextState": "Interruption2Response",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "What the hell was he on about?? Hey, are there any more peanuts?",
+					"UtteranceId": "TTS-FC2E6211F9AF32A2FCA7038C2426ACDB"
+				}, 
+				{
+					"CurrentState": "Conversation2",
+					"NextState": "Conversation2Response",
+					"Meaning": "Happy1",
+					"Style": "Nostalgic",
+					"Utterance": "For a bartender you sure know good advice...",
+					"UtteranceId": "TTS-2333868F04CB1173D482D100B8237A16"
+				}, 
+				{
+					"CurrentState": "Clarity2",
+					"NextState": "Clarity2Response",
+					"Meaning": "Inspiration1",
+					"Style": "-",
+					"Utterance": "'A fool I was to sleep at noon, And wake when night is chilly'",
+					"UtteranceId": "TTS-8E9E19231726C0DC4889D82C8A452F93"
+				}, 
+				{
+					"CurrentState": "Clarity1Response",
+					"NextState": "Conversation1",
+					"Meaning": "ChitChat2",
+					"Style": "-",
+					"Utterance": "Hmmm... You seem to have a story to tell. I'm all hears.",
+					"UtteranceId": "TTS-857F7DA3E64AB101BC946C21A6926F3E"
+				}, 
+				{
+					"CurrentState": "Clarity1Response",
+					"NextState": "Conversation1",
+					"Meaning": "ChitChat4",
+					"Style": "-",
+					"Utterance": "Beg your pardon? All you alright, man?",
+					"UtteranceId": "TTS-36AEE43474082C166597302F7B5D9835"
+				}, 
+				{
+					"CurrentState": "Clarity3",
+					"NextState": "Clarity3Response",
+					"Meaning": "Inspiration1",
+					"Style": "-",
+					"Utterance": "'The lunatic, the lover and the poet are of imagination all compact:'",
+					"UtteranceId": "TTS-3DC046E5B37AFE9E2D4548319751BCD2"
+				}, 
+				{
+					"CurrentState": "Discussion1",
+					"NextState": "Discussion1Response",
+					"Meaning": "Sad2",
+					"Style": "Sad",
+					"Utterance": "Just leave me alone to drown my sorrows.",
+					"UtteranceId": "TTS-BFA9B2C01EC8E6369659406C1C5D101B"
+				}, 
+				{
+					"CurrentState": "Discussion1",
+					"NextState": "Discussion1Response",
+					"Meaning": "Sad3",
+					"Style": "Sad",
+					"Utterance": "You have a real nice personality, don't you?",
+					"UtteranceId": "TTS-F215323FEDA9ABFDFF2BEB50821A56AA"
+				}, 
+				{
+					"CurrentState": "DeepConversation",
+					"NextState": "DeepConversationResponse",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "My girlfriend was sick. A rare disease that eats you from the inside...",
+					"UtteranceId": "TTS-3050D1D6D503AE4517A86667EBB65209"
+				}, 
+				{
+					"CurrentState": "Conversation1",
+					"NextState": "Conversation1Response",
+					"Meaning": "Happy2",
+					"Style": "Nostalgic",
+					"Utterance": "Yeah... Do you ever think about the ones you've left behind?",
+					"UtteranceId": "TTS-C2DAA596BBC716281FDCC907A1D6326A"
+				}, 
+				{
+					"CurrentState": "PaymentResponse",
+					"NextState": "LastAppreciation",
+					"Meaning": "ChitChat1",
+					"Style": "-",
+					"Utterance": "Haha, no problem, have a good one!! *tired yawn*",
+					"UtteranceId": "TTS-2184D73F55ECB5ADD768ACAC0736B1C8"
+				}, 
+				{
+					"CurrentState": "Discussion2",
+					"NextState": "Discussion2Response",
+					"Meaning": "Sad1",
+					"Style": "Sad",
+					"Utterance": "Ever heard about empathy? You should look into it someday.",
+					"UtteranceId": "TTS-1ACBD810BD76F038CF05018966F11C12"
+				}, 
+				{
+					"CurrentState": "Clarity2",
+					"NextState": "Clarity2Response",
+					"Meaning": "Inspiration4",
+					"Style": "-",
+					"Utterance": "'And in between this world and next, I'll hold your hand in mine.'",
+					"UtteranceId": "TTS-C91AF642F6DFBAC6033CFC44440F71C4"
+				}, 
+				{
+					"CurrentState": "Discussion1Response",
+					"NextState": "CustomerDrinks2",
+					"Meaning": "Bad2",
+					"Style": "Heartless",
+					"Utterance": "Everyone has their own problems... Get over it.",
+					"UtteranceId": "TTS-D43AC2E7CB6B7038400A2A14EFFE1286"
+				}, 
+				{
+					"CurrentState": "Discussion1",
+					"NextState": "Discussion1Response",
+					"Meaning": "Sad1",
+					"Style": "Sad",
+					"Utterance": "Stop being such a dick, will you?",
+					"UtteranceId": "TTS-865C0BB73ACC3419ACFE49A453DF0C75"
+				}, 
+				{
+					"CurrentState": "Discussion1Response",
+					"NextState": "CustomerDrinks2",
+					"Meaning": "Good2",
+					"Style": "Empathic",
+					"Utterance": "I didn't mean it like that... ",
+					"UtteranceId": "TTS-A6AD6D25D06DBCC11CA6E063E68EA4B4"
+				}, 
+				{
+					"CurrentState": "Mumbling1",
+					"NextState": "OrderResponse",
+					"Meaning": "ResumeConversation",
+					"Style": "-",
+					"Utterance": "I'm completely sober, and you know it...",
+					"UtteranceId": "TTS-E353CE0B6B27AF8FF5E3B54812C2DE86"
+				}, 
+				{
+					"CurrentState": "Clarity1",
+					"NextState": "Clarity1Response",
+					"Meaning": "Inspiration2",
+					"Style": "-",
+					"Utterance": "'There are none to decline your nectared wine, but alone you must drink life's gall.'",
+					"UtteranceId": "TTS-9318297D186C950E2F3AE3C4E238901F"
+				}, 
+				{
+					"CurrentState": "Drinking2",
+					"NextState": "Clarity2",
+					"Meaning": "Good1",
+					"Style": "Empathic",
+					"Utterance": "I wonder... Do you have any more poetry to share? ",
+					"UtteranceId": "TTS-8F2E36858247CFC2A7416E1CCD29AF5D"
+				}, 
+				{
+					"CurrentState": "Clarity2Response",
+					"NextState": "Discussion2",
+					"Meaning": "ChitChat1",
+					"Style": "-",
+					"Utterance": "Mumbling poetry isn't going to fix anything...",
+					"UtteranceId": "TTS-7E68F10267FF779A5907DBB8DB73D927"
+				}, 
+				{
+					"CurrentState": "Clarity2",
+					"NextState": "Clarity2Response",
+					"Meaning": "Inspiration2",
+					"Style": "-",
+					"Utterance": "'Love is so short, forgetting is so long.'",
+					"UtteranceId": "TTS-F3DF94812F28F7AEF129B90FB0C002BE"
+				}, 
+				{
+					"CurrentState": "Conversation1Response",
+					"NextState": "CustomerDrinks2",
+					"Meaning": "Bad1",
+					"Style": "Heartless",
+					"Utterance": "Wouldn't know the feeling man, honestly.",
+					"UtteranceId": "TTS-9836D81CD4F8B5F513AEFBBD0F981C49"
+				}, 
+				{
+					"CurrentState": "PaymentBest",
+					"NextState": "PaymentResponse",
+					"Meaning": "ChitChat1",
+					"Style": "-",
+					"Utterance": "Really?? You don't know how much that means to me!! I could kiss ya!!",
+					"UtteranceId": "TTS-6BE605BAAD769349195DB3E03F542B25"
+				}, 
+				{
+					"CurrentState": "Conversation1Response",
+					"NextState": "CustomerDrinks2",
+					"Meaning": "Good2",
+					"Style": "Empathic",
+					"Utterance": "My mother always used to say to take it one day at a time...",
+					"UtteranceId": "TTS-41C0D80B2554702880A9A25195B24BD2"
+				}, 
+				{
+					"CurrentState": "Clarity2",
+					"NextState": "Clarity2Response",
+					"Meaning": "Inspiration3",
+					"Style": "-",
+					"Utterance": "'Who spilled these stars across the sky, like sparkling dust, like clouds of light?'",
+					"UtteranceId": "TTS-10B675A5858CD62577B32DDDE016CA24"
+				}, 
+				{
+					"CurrentState": "Start",
+					"NextState": "Greeting",
+					"Meaning": "ChitChat2",
+					"Style": "-",
+					"Utterance": "Evening...",
+					"UtteranceId": "TTS-98A369D371DC96D2613D1C97566A1598"
+				}, 
+				{
+					"CurrentState": "Interruption3",
+					"NextState": "Interruption3Response",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Finally, a worthy drinking opponent!! Our battle will be leg-",
+					"UtteranceId": "TTS-147CE0A50600A9B718D5769CD6147CAA"
+				}, 
+				{
+					"CurrentState": "Clarity2Response",
+					"NextState": "Discussion2",
+					"Meaning": "ChitChat2",
+					"Style": "-",
+					"Utterance": "Oh man up...",
+					"UtteranceId": "TTS-729B3CED2C6E8E6716656AA58676C36C"
+				}, 
+				{
+					"CurrentState": "Clarity3Response",
+					"NextState": "Discussion3",
+					"Meaning": "Bad1",
+					"Style": "Heartless",
+					"Utterance": "I'm not going to call you a cab, you know? Sort yourself out...",
+					"UtteranceId": "TTS-B8398BA87F02BF1627F7069A17CAFF60"
+				}, 
+				{
+					"CurrentState": "Conversation2",
+					"NextState": "Conversation2Response",
+					"Meaning": "Happy3",
+					"Style": "Nostalgic",
+					"Utterance": "It's rough... 'But still, like dust, I'll rise.'",
+					"UtteranceId": "TTS-FEB1745D0E1372039D4677834A0EE7A4"
+				}, 
+				{
+					"CurrentState": "Conversation2",
+					"NextState": "Conversation2Response",
+					"Meaning": "Happy2",
+					"Style": "Nostalgic",
+					"Utterance": "You're right... I can't let her down now.",
+					"UtteranceId": "TTS-1F08B2534C3476DEA5E5502FFA29CE92"
+				}, 
+				{
+					"CurrentState": "Discussion2",
+					"NextState": "Discussion2Response",
+					"Meaning": "Sad2",
+					"Style": "Sad",
+					"Utterance": "That's one way of scaring off customers...",
+					"UtteranceId": "TTS-3ECC988AD2EE96E6361E55917F976068"
+				}, 
+				{
+					"CurrentState": "KickedOut",
+					"NextState": "KickedOutResponse",
+					"Meaning": "ChitChat3",
+					"Style": "-",
+					"Utterance": "Get out of here and don't come back! Now!",
+					"UtteranceId": "TTS-18380D122643778A7EC9DAD8E2F56F15"
+				}, 
+				{
+					"CurrentState": "Conversation2Response",
+					"NextState": "CustomerDrinks3",
+					"Meaning": "Good1",
+					"Style": "Empathic",
+					"Utterance": "I don't know much poetry but I'm here to help in any way I can.",
+					"UtteranceId": "TTS-144FAAA1153260C50A2D28AD2A3EBDFC"
+				}, 
+				{
+					"CurrentState": "Conversation2Response",
+					"NextState": "CustomerDrinks3",
+					"Meaning": "Bad1",
+					"Style": "Heartless",
+					"Utterance": "I know my stuff. Do you want one more pour? You'll need to pay...",
+					"UtteranceId": "TTS-1CA87570A5E6D5A13B6A6999CB549CCD"
+				}, 
+				{
+					"CurrentState": "Conversation1",
+					"NextState": "Conversation1Response",
+					"Meaning": "Sad1",
+					"Style": "Sad",
+					"Utterance": "The world is an unfair place, kiddo. Just that...",
+					"UtteranceId": "TTS-AC6CB358390DF8D725EF883EAA2178B3"
+				}, 
+				{
+					"CurrentState": "DeepConversationFailed",
+					"NextState": "CustomerDrinks3",
+					"Meaning": "Sad1",
+					"Style": "Sad",
+					"Utterance": "Sorry for asking...",
+					"UtteranceId": "TTS-83E7BE510B3C4C65AB431F85A2FF61FB"
+				}, 
+				{
+					"CurrentState": "Discussion2Response",
+					"NextState": "CustomerDrinks3",
+					"Meaning": "Good1",
+					"Style": "Empathic",
+					"Utterance": "Fine... I'm sure you'll bounce back, man.",
+					"UtteranceId": "TTS-32DB1F942410CF8C7F7C928F54DA7EAB"
+				}, 
+				{
+					"CurrentState": "Clarity3",
+					"NextState": "Clarity3Response",
+					"Meaning": "Inspiration3",
+					"Style": "-",
+					"Utterance": "'Be continually drunk! On wine, on poetry or on virtue as you wish.'",
+					"UtteranceId": "TTS-7C79CFAB2D46F4805091C5F15AFED83F"
+				}, 
+				{
+					"CurrentState": "CustomerDrinks1",
+					"NextState": "Drinking1",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "*takes sip of drink*",
+					"UtteranceId": "TTS-E268D1B75CA04719A815882768ADB4B1"
+				}, 
+				{
+					"CurrentState": "Clarity3",
+					"NextState": "Clarity3Response",
+					"Meaning": "Inspiration2",
+					"Style": "-",
+					"Utterance": "'Some people never go crazy. What truly horrible lives they must lead.'",
+					"UtteranceId": "TTS-60D834BBBA88842269E89425E095ADC9"
+				}, 
+				{
+					"CurrentState": "Conversation3Response",
+					"NextState": "PaymentGood",
+					"Meaning": "ChitChat1",
+					"Style": "-",
+					"Utterance": "Alright, I'll keep what you have. See you around!",
+					"UtteranceId": "TTS-744FBDE7F7F3139D66C2E1C359236E0B"
+				}, 
+				{
+					"CurrentState": "Recommendation",
+					"NextState": "FinalOrder",
+					"Meaning": "Bad1",
+					"Style": "Heartless",
+					"Utterance": "Right, little lady... Get me a beer.",
+					"UtteranceId": "TTS-D78E097B4CA09B7659A6EC60C77F0B68"
+				}, 
+				{
+					"CurrentState": "Clarity1",
+					"NextState": "Clarity1Response",
+					"Meaning": "Inspiration1",
+					"Style": "-",
+					"Utterance": "'Do not go gentle into that good night. Rage, rage against the dying of the light.'",
+					"UtteranceId": "TTS-212B5F7557718528CA41B0D183459E31"
+				}, 
+				{
+					"CurrentState": "Conversation1Response",
+					"NextState": "CustomerDrinks2",
+					"Meaning": "Good1",
+					"Style": "Empathic",
+					"Utterance": "Been there, done that... not an easy feeling.",
+					"UtteranceId": "TTS-F555F12B06920CAAB26AA3660959951E"
+				}, 
+				{
+					"CurrentState": "PaymentGood",
+					"NextState": "NeutralEnding",
+					"Meaning": "ChitChat2",
+					"Style": "-",
+					"Utterance": "Thank you. Now to get home, wherever that may be... Goodbye.",
+					"UtteranceId": "TTS-FFEF615BBFE84BC53A8FB7A77335339F"
+				}, 
+				{
+					"CurrentState": "Clarity3Response",
+					"NextState": "Conversation3",
+					"Meaning": "Good2",
+					"Style": "Empathic",
+					"Utterance": "Wow there, seems like you thirst has been \"over-quenched\" haha",
+					"UtteranceId": "TTS-76A5F80FCD6D95B55FA4264DCBBFEFE5"
+				}, 
+				{
+					"CurrentState": "Discussion2Response",
+					"NextState": "CustomerDrinks3",
+					"Meaning": "Bad1",
+					"Style": "Heartless",
+					"Utterance": "Whatever man, I'm no psychologist.",
+					"UtteranceId": "TTS-123A6C534066ECD9D8E8C6E1BC08974F"
+				}, 
+				{
+					"CurrentState": "Conversation3",
+					"NextState": "Conversation3Response",
+					"Meaning": "ChitChat4",
+					"Style": "-",
+					"Utterance": "How much for the drinks? I don- I don't think I have enough money. ",
+					"UtteranceId": "TTS-A461A9FD614E4F40313B43B93F369BEF"
+				}, 
+				{
+					"CurrentState": "Discussion3",
+					"NextState": "KickedOut",
+					"Meaning": "Bad2",
+					"Style": "Heartless",
+					"Utterance": "I'm fine... but my wallet is a little too light for all this booze.",
+					"UtteranceId": "TTS-B08BF4D150C57DA208AD34BB80881BFC"
+				}, 
+				{
+					"CurrentState": "KickedOut",
+					"NextState": "KickedOutResponse",
+					"Meaning": "ChitChat4",
+					"Style": "-",
+					"Utterance": "Hey, come back here! This doesn't pay the bill!",
+					"UtteranceId": "TTS-34DFC4493D43594FC90E8D4E415EA794"
+				}, 
+				{
+					"CurrentState": "NoPayment",
+					"NextState": "PaymentBest",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Don't worry, it's on the house!",
+					"UtteranceId": "TTS-B62A216913485FE784D0879F3FFC09EE"
+				}, 
+				{
+					"CurrentState": "Clarity3Response",
+					"NextState": "Discussion3",
+					"Meaning": "Bad2",
+					"Style": "Heartless",
+					"Utterance": "Alright, enough booze for you. Pay up!",
+					"UtteranceId": "TTS-9C2A7CC8E5FD4E40630F6CD3C314EF8B"
+				}, 
+				{
+					"CurrentState": "KickedOutResponse",
+					"NextState": "BadEnding",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "'Wheresoever fate may bring you, The vile snake will always sting you.'",
+					"UtteranceId": "TTS-0D8422D784012CD4ED27DF148CA2A1C7"
+				}, 
+				{
+					"CurrentState": "Drinking3",
+					"NextState": "Clarity3",
+					"Meaning": "Bad1",
+					"Style": "Heartless",
+					"Utterance": "Life's a big huge \"fuck you\", get over it...",
+					"UtteranceId": "TTS-FEBA205825C8D86996D192A8FCCD7A94"
+				}, 
+				{
+					"CurrentState": "Conversation3",
+					"NextState": "Conversation3Response",
+					"Meaning": "ChitChat3",
+					"Style": "-",
+					"Utterance": "Is this enough? I didn't bring any more money...",
+					"UtteranceId": "TTS-A0E71EAA51D3AFF480BFB3F578BB1ED5"
+				}, 
+				{
+					"CurrentState": "Conversation3",
+					"NextState": "Conversation3Response",
+					"Meaning": "ChitChat1",
+					"Style": "-",
+					"Utterance": "Shiiet... What do I owe you? I don't think I have enough...",
+					"UtteranceId": "TTS-76ABFD4393C937EF1D712FE2101B6984"
+				}, 
+				{
+					"CurrentState": "Clarity2Response",
+					"NextState": "Conversation2",
+					"Meaning": "ChitChat4",
+					"Style": "-",
+					"Utterance": "There are a lot of people who want you to keep going, despite the hardships!",
+					"UtteranceId": "TTS-F4CEC7A8A16ACAA0B13C981F0CF50A6E"
+				}, 
+				{
+					"CurrentState": "Drinking1",
+					"NextState": "Clarity1",
+					"Meaning": "Bad1",
+					"Style": "Heartless",
+					"Utterance": "You do realize you left the floor dirty when you came in?",
+					"UtteranceId": "TTS-81933DA49018BB75C4A82DE6C7946A1E"
+				}, 
+				{
+					"CurrentState": "Conversation3Response",
+					"NextState": "PaymentGood",
+					"Meaning": "ChitChat2",
+					"Style": "-",
+					"Utterance": "You'll pay the rest some other day, I suppose.",
+					"UtteranceId": "TTS-6CEDD052C3B1A8BB73CA56978D29D341"
+				}, 
+				{
+					"CurrentState": "Clarity3Response",
+					"NextState": "Conversation3",
+					"Meaning": "Good1",
+					"Style": "Empathic",
+					"Utterance": "There you go, that's the spirit!! I guess, haha...",
+					"UtteranceId": "TTS-DBBE64528490D6A354414DE182D404CA"
+				}, 
+				{
+					"CurrentState": "PaymentBest",
+					"NextState": "PaymentResponse",
+					"Meaning": "ChitChat2",
+					"Style": "-",
+					"Utterance": "The gods have indeed graced me with your presence!!! ",
+					"UtteranceId": "TTS-2F3240478010FFBFA716FCA754BC46F3"
+				}, 
+				{
+					"CurrentState": "PaymentResponse",
+					"NextState": "LastAppreciation",
+					"Meaning": "ChitChat2",
+					"Style": "-",
+					"Utterance": "Don't sweat it man... *yawn* I should also get going soon.",
+					"UtteranceId": "TTS-7BB909F5CA56EF736358265ED8DC7D69"
+				}, 
+				{
+					"CurrentState": "LastAppreciation",
+					"NextState": "BestEnding",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "'Oh sleep! it is a gentle thing, Beloved from pole to pole!'...",
+					"UtteranceId": "TTS-4D77B9FD0FBD44CE18954817E36344CD"
+				}, 
+				{
+					"CurrentState": "Start",
+					"NextState": "Greeting",
+					"Meaning": "ChitChat1",
+					"Style": "-",
+					"Utterance": "Good evening...",
+					"UtteranceId": "TTS-EAD46361BDC9D3D2D6E3B4848DE9378B"
+				}, 
+				{
+					"CurrentState": "Conversation1Response",
+					"NextState": "CustomerDrinks2",
+					"Meaning": "Bad2",
+					"Style": "Heartless",
+					"Utterance": "Welp, at least you're still here, right? *nervous laughter*",
+					"UtteranceId": "TTS-CC0F8FA9816AC1696F3B60841548BA99"
+				}, 
+				{
+					"CurrentState": "Discussion3",
+					"NextState": "KickedOut",
+					"Meaning": "Bad1",
+					"Style": "Heartless",
+					"Utterance": "You know what, I'm leaving this junk. Here's your money...",
+					"UtteranceId": "TTS-595F5D310C38CA392377E9ACD82FF72F"
+				}, 
+				{
+					"CurrentState": "Drinking1",
+					"NextState": "Clarity1",
+					"Meaning": "Good1",
+					"Style": "Empathic",
+					"Utterance": "You're not a regular, are you?... What brings you here?",
+					"UtteranceId": "TTS-5E4D13D52977188722DC0E2A5F0F5F5E"
+				}, 
+				{
+					"CurrentState": "Clarity1Response",
+					"NextState": "Discussion1",
+					"Meaning": "ChitChat1",
+					"Style": "-",
+					"Utterance": "What the... They don't pay me enough for this.",
+					"UtteranceId": "TTS-32ABED5775B747B90047EBE6A681D424"
+				}, 
+				{
+					"CurrentState": "Drinking1",
+					"NextState": "Clarity1",
+					"Meaning": "Bad2",
+					"Style": "Heartless",
+					"Utterance": "So... The cat's got your tongue or what?",
+					"UtteranceId": "TTS-B4C5DEA6608309743C522B3BC2CDCB0C"
+				}, 
+				{
+					"CurrentState": "Discussion2",
+					"NextState": "Discussion2Response",
+					"Meaning": "Sad3",
+					"Style": "Sad",
+					"Utterance": "I'm not even going to respond to that...",
+					"UtteranceId": "TTS-A53E53C971DA04D7290CF0549ACFEB6B"
+				}, 
+				{
+					"CurrentState": "Drinking2",
+					"NextState": "Clarity2",
+					"Meaning": "Bad1",
+					"Style": "Heartless",
+					"Utterance": "So... Are you like a \"were-poet\" - when you're sad you turn into a poet?",
+					"UtteranceId": "TTS-56AE429D0B828FA50875EAC1CDE2DB3D"
+				}, 
+				{
+					"CurrentState": "Drinking3",
+					"NextState": "Clarity3",
+					"Meaning": "Good2",
+					"Style": "Empathic",
+					"Utterance": "Life's tough, but we're tougher! Right?",
+					"UtteranceId": "TTS-61F704214E72C4A3A9ADFE7D7E72FA5E"
+				}, 
+				{
+					"CurrentState": "Conversation2Response",
+					"NextState": "CustomerDrinks3",
+					"Meaning": "Bad2",
+					"Style": "Heartless",
+					"Utterance": "Yeah... Listen, it's getting late, I invite you to leave the bar.",
+					"UtteranceId": "TTS-B396A7B34E3BC6353A0A0912926D65F7"
+				}, 
+				{
+					"CurrentState": "Conversation3",
+					"NextState": "NoPayment",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Fuck... Left my wallet at home. Is there any way I could come back some other day?",
+					"UtteranceId": "TTS-F47454C8F384A396D1EB326737ECC647"
+				}, 
+				{
+					"CurrentState": "Discussion2Response",
+					"NextState": "CustomerDrinks3",
+					"Meaning": "Bad2",
+					"Style": "Heartless",
+					"Utterance": "What a waste of a good drink...",
+					"UtteranceId": "TTS-20A5AE872C23B8275335CAD7350C0B79"
+				}, 
+				{
+					"CurrentState": "Drinking2",
+					"NextState": "Clarity2",
+					"Meaning": "Good2",
+					"Style": "Empathic",
+					"Utterance": "Days like these are not for the weak-willed, huh?",
+					"UtteranceId": "TTS-E31DEE80B3BDA31CDC8C2B84B172BC10"
+				}, 
+				{
+					"CurrentState": "Discussion1Response",
+					"NextState": "CustomerDrinks2",
+					"Meaning": "Good1",
+					"Style": "Empathic",
+					"Utterance": "*Sigh* Sorry, it's been a rough week for me too.",
+					"UtteranceId": "TTS-CB6890BB3813AC452A32366FED740870"
+				}, 
+				{
+					"CurrentState": "Drinking3",
+					"NextState": "Clarity3",
+					"Meaning": "Bad2",
+					"Style": "Heartless",
+					"Utterance": "Here we go again...",
+					"UtteranceId": "TTS-0F01A315D356F79F0C59A0670004C864"
+				}, 
+				{
+					"CurrentState": "Drinking3",
+					"NextState": "Clarity3",
+					"Meaning": "Good1",
+					"Style": "Empathic",
+					"Utterance": "Take it from me: it's best to let those feelings out now rather than later.",
+					"UtteranceId": "TTS-ED57640BE69C3EC120C00423FE81E442"
+				}, 
+				{
+					"CurrentState": "Drinking1",
+					"NextState": "Clarity1",
+					"Meaning": "Good2",
+					"Style": "Empathic",
+					"Utterance": "Enjoy it!",
+					"UtteranceId": "TTS-031943A465166DE46665DE7E0CCFB77D"
+				}, 
+				{
+					"CurrentState": "OrderResponse",
+					"NextState": "Recommendation",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "A glass of milk, perhaps?",
+					"UtteranceId": "TTS-B3DB9895A0F8377B20F0D9A498CC750C"
+				}, 
+				{
+					"CurrentState": "Conversation1",
+					"NextState": "Conversation1Response",
+					"Meaning": "Happy1",
+					"Style": "Nostalgic",
+					"Utterance": "I was not ready to say goodbye to such a wonderful person...",
+					"UtteranceId": "TTS-5E305E35D11B41BD77BB29B17019DD6F"
+				}, 
+				{
+					"CurrentState": "Clarity1Response",
+					"NextState": "Discussion1",
+					"Meaning": "ChitChat3",
+					"Style": "-",
+					"Utterance": "The drunken speeches came sooner than expected... What are you on about?",
+					"UtteranceId": "TTS-7FC30692DD3D5B2C6CFA1672309D0764"
+				}, 
+				{
+					"CurrentState": "Conversation2Response",
+					"NextState": "DeepConversation",
+					"Meaning": "Good2",
+					"Style": "Empathic",
+					"Utterance": "You got me curious though... What exactly happened?",
+					"UtteranceId": "TTS-A20AA3BBD634031DD93F582504149363"
+				}, 
+				{
+					"CurrentState": "DeepConversation",
+					"NextState": "DeepConversationFailed",
+					"Meaning": "Bad1",
+					"Style": "Heartless",
+					"Utterance": "I don't think I feel comfortable talking about that...",
+					"UtteranceId": "TTS-362A2FCAF8827F6DD991D42E37BA3FE7"
+				}, 
+				{
+					"CurrentState": "DeepConversationResponse",
+					"NextState": "DeepConversation2",
+					"Meaning": "ChitChat1",
+					"Style": "-",
+					"Utterance": "I'm sorry to hear that... What happened next?",
+					"UtteranceId": "TTS-E7F5E990FC076E123726C5E2212B27F3"
+				}, 
+				{
+					"CurrentState": "DeepConversationResponse",
+					"NextState": "DeepConversation2",
+					"Meaning": "ChitChat2",
+					"Style": "-",
+					"Utterance": "Couldn't have been easy to face that...",
+					"UtteranceId": "TTS-153E159EB8ADCB6E72891150943D9D85"
+				}, 
+				{
+					"CurrentState": "DeepConversation3",
+					"NextState": "DeepConversation3Response",
+					"Meaning": "Good1",
+					"Style": "Empathic",
+					"Utterance": "Thanks for what you're trying to do. Really.",
+					"UtteranceId": "TTS-248A6B662575B1C715D4EF92B1964282"
+				}, 
+				{
+					"CurrentState": "DeepConversation2",
+					"NextState": "DeepConversation2Response",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "She decided it was her time to go, so we pulled the plug... Just came back from her funeral... It was annoying how much she loved poetry.",
+					"UtteranceId": "TTS-4B9FE8DEF53B9F30C45FB30CD099068B"
+				}, 
+				{
+					"CurrentState": "DeepConversation2Response",
+					"NextState": "DeepConversation3",
+					"Meaning": "Good1",
+					"Style": "Empathic",
+					"Utterance": "Must have felt horrible... But it was her time to decide such a thing",
+					"UtteranceId": "TTS-68A92A4A1F9ECF35FEFAB394F9BDD514"
+				}, 
+				{
+					"CurrentState": "DeepConversation2Response",
+					"NextState": "DeepConversation3",
+					"Meaning": "Good2",
+					"Style": "Empathic",
+					"Utterance": "You couldn't have done anything to stop it, buddy...",
+					"UtteranceId": "TTS-AB968ECA1B02F96586146BAD2DD1B2B0"
+				}, 
+				{
+					"CurrentState": "DeepConversation3",
+					"NextState": "DeepConversation3Response",
+					"Meaning": "Good2",
+					"Style": "Empathic",
+					"Utterance": "Time heals all wounds... Or so they say. Thanks for this.",
+					"UtteranceId": "TTS-EE97D401479B2923A08355DB7E739B09"
+				}, 
+				{
+					"CurrentState": "DeepConversation3Response",
+					"NextState": "CustomerDrinks3",
+					"Meaning": "Good2",
+					"Style": "Empathic",
+					"Utterance": "No problem, just glad I could help you.",
+					"UtteranceId": "TTS-D08164965ABE004C7BBF76476AE07B99"
+				}, 
+				{
+					"CurrentState": "DeepConversation3Response",
+					"NextState": "CustomerDrinks3",
+					"Meaning": "Good1",
+					"Style": "Empathic",
+					"Utterance": "Hey, that's what I'm here for! ",
+					"UtteranceId": "TTS-3A5E021322BA9E624E658984C7F80DBD"
+				}, 
+				{
+					"CurrentState": "Drinking2",
+					"NextState": "Clarity2",
+					"Meaning": "Bad2",
+					"Style": "Heartless",
+					"Utterance": "*ignore the customer*",
+					"UtteranceId": "TTS-2D5C51D9C40089AEE5CBE3EB01938CB8"
+				}, 
+				{
+					"CurrentState": "NoPayment",
+					"NextState": "PaymentBest",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "It's on me buddy, you've already had a bad day...",
+					"UtteranceId": "TTS-53351CDE8FA1749017482DA00AC9FF6B"
+				}, 
+				{
+					"CurrentState": "PaymentGood",
+					"NextState": "NeutralEnding",
+					"Meaning": "ChitChat1",
+					"Style": "-",
+					"Utterance": "Cheers... Hope life treats you well. See you...",
+					"UtteranceId": "TTS-E6680C367562BDA94285467BE8596046"
+				}, 
+				{
+					"CurrentState": "Order",
+					"NextState": "Interruption1",
+					"Meaning": "ChitChat1",
+					"Style": "-",
+					"Utterance": "What do you reckon I'd like?",
+					"UtteranceId": "TTS-E207DE538072576074E4F1E553797216"
+				}, 
+				{
+					"CurrentState": "FinalOrder",
+					"NextState": "CustomerDrinks1",
+					"Meaning": "ChitChat3",
+					"Style": "-",
+					"Utterance": "Yes, sir...",
+					"UtteranceId": "TTS-4B99ADC9A7C364C3E2A57CE15BC26663"
+				}, 
+				{
+					"CurrentState": "CustomerDrinks2",
+					"NextState": "Interruption2",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "*takes another sip of drink*",
+					"UtteranceId": "TTS-A2F506A0A96BDF6B16C4863F28D05745"
+				}, 
+				{
+					"CurrentState": "Interruption1",
+					"NextState": "Interruption1Response",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "DO NOT serve him the rum! It gives you the diarrheas...",
+					"UtteranceId": "TTS-6A28EF7B0B60A35826E66E3339F58950"
+				}, 
+				{
+					"CurrentState": "Interruption1Response",
+					"NextState": "Mumbling1",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Oh shut up Earl! Don't mind him, he's just wasted.",
+					"UtteranceId": "TTS-A4C3ADD134EDDB72D62383E5C7952E68"
+				}, 
+				{
+					"CurrentState": "Mumbling2",
+					"NextState": "Drinking2",
+					"Meaning": "ResumeConversation",
+					"Style": "Heartless",
+					"Utterance": "What a fantastic bartender...",
+					"UtteranceId": "TTS-4AA57CE7F478A15831567A7D96330B4E"
+				}, 
+				{
+					"CurrentState": "CustomerDrinks3",
+					"NextState": "Interruption3",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "*chugs rest of drink*",
+					"UtteranceId": "TTS-4C4F3F0BA88E267A6A36DCCD4EBD2170"
+				}, 
+				{
+					"CurrentState": "Interruption2Response",
+					"NextState": "Mumbling2",
+					"Meaning": "Bad1",
+					"Style": "Heartless",
+					"Utterance": "I don't know... Get your ass up and come get them!",
+					"UtteranceId": "TTS-672A61B1DF5732D925ACDB72E7B7F2C5"
+				}, 
+				{
+					"CurrentState": "Interruption2Response",
+					"NextState": "Mumbling2",
+					"Meaning": "Good1",
+					"Style": "Empathic",
+					"Utterance": "Don't worry about it... Come and get them, please.",
+					"UtteranceId": "TTS-A6D160306F8CB762E4B8237AB0B50D02"
+				}, 
+				{
+					"CurrentState": "Mumbling2",
+					"NextState": "Drinking2",
+					"Meaning": "ResumeConversation",
+					"Style": "Empathic",
+					"Utterance": "Ehh, too much effort...",
+					"UtteranceId": "TTS-9353AAC16BBDCC7A3B291797EBB0527B"
+				}, 
+				{
+					"CurrentState": "Mumbling3",
+					"NextState": "Drinking3",
+					"Meaning": "ResumeConversation",
+					"Style": "Empathic",
+					"Utterance": "I was just trying to help a fellow buddy guy...",
+					"UtteranceId": "TTS-068DC9AADF735D6474E0729656618507"
+				}, 
+				{
+					"CurrentState": "Interruption3Response",
+					"NextState": "Mumbling3",
+					"Meaning": "Good1",
+					"Style": "Empathic",
+					"Utterance": "Earl, shouldn't you be home by now? You're wife is going to kill you.",
+					"UtteranceId": "TTS-5C95C59A299AC51F1284ABED57FBD1ED"
+				}, 
+				{
+					"CurrentState": "Interruption3Response",
+					"NextState": "Mumbling3",
+					"Meaning": "Bad1",
+					"Style": "Heartless",
+					"Utterance": "Earl, keep it down, will you?!",
+					"UtteranceId": "TTS-878319173542DD1633D4DA7E1947BD13"
+				}, 
+				{
+					"CurrentState": "Mumbling3",
+					"NextState": "Drinking3",
+					"Meaning": "ResumeConversation",
+					"Style": "Heartless",
+					"Utterance": "-endary!!! Haha!!",
+					"UtteranceId": "TTS-5A548AAC97D799C58BD54E9E4CF94764"
+				}, 
+				{
+					"CurrentState": "Conversation1",
+					"NextState": "Conversation1Response",
+					"Meaning": "Sad2",
+					"Style": "Sad",
+					"Utterance": "A loved one gone. Nothing a little bit of booze won't solve... ",
+					"UtteranceId": "TTS-4EE7C9893F5E148288D784BBCB091E30"
+				}, 
+				{
+					"CurrentState": "Recommendation",
+					"NextState": "FinalOrder",
+					"Meaning": "Good1",
+					"Style": "Empathic",
+					"Utterance": "I’ll have a whiskey on the rocks.",
+					"UtteranceId": "TTS-04D21488CA4F02451F1EF9F1A63B3719"
+				}],
+			"Characters": [
+				{
+					"KnowledgeBase":
+						{
+							"Perspective": "Bartender",
+							"Knowledge":
+								{
+									"SELF":
+										{
+											"Has(Floor)": "Customer, 1",
+											"DialogueState(Customer)": "Start, 1",
+											"Can(Serve)": "True, 1",
+											"Is(Drunkard)": "False, 1"
+										}
+								}
+						},
+					"BodyName": "Female",
+					"VoiceName": "Female",
+					"EmotionalState":
+						{
+							"Mood": 0,
+							"initialTick": 0,
+							"EmotionalPool": [],
+							"AppraisalConfiguration":
+								{
+									"HalfLifeDecayConstant": 0.5,
+									"EmotionInfluenceOnMoodFactor": 0.3,
+									"MoodInfluenceOnEmotionFactor": 0.3,
+									"MinimumMoodValueForInfluencingEmotions": 0.5,
+									"EmotionalHalfLifeDecayTime": 15,
+									"MoodHalfLifeDecayTime": 60
+								}
+						},
+					"AutobiographicMemory":
+						{
+							"Tick": 0,
+							"records": []
+						},
+					"OtherAgents":
+						{
+							"dictionary": []
+						},
+					"Goals": []
+				}, 
+				{
+					"KnowledgeBase":
+						{
+							"Perspective": "Customer",
+							"Knowledge":
+								{
+									"SELF":
+										{
+											"Has(Floor)": "Customer, 1",
+											"DialogueState(Bartender)": "Start, 1",
+											"Can(Serve)": "False, 1",
+											"Is(Drunkard)": "False, 1",
+											"CanGainSI(Bartender)": "True, 1",
+											"CanGainSI(Drunkard)": "False, 1"
+										}
+								}
+						},
+					"BodyName": "Male",
+					"VoiceName": "Male",
+					"EmotionalState":
+						{
+							"Mood": -5,
+							"initialTick": 0,
+							"EmotionalPool": [],
+							"AppraisalConfiguration":
+								{
+									"HalfLifeDecayConstant": 0.5,
+									"EmotionInfluenceOnMoodFactor": 0.3,
+									"MoodInfluenceOnEmotionFactor": 0.3,
+									"MinimumMoodValueForInfluencingEmotions": 0.5,
+									"EmotionalHalfLifeDecayTime": 15,
+									"MoodHalfLifeDecayTime": 60
+								}
+						},
+					"AutobiographicMemory":
+						{
+							"Tick": 0,
+							"records": []
+						},
+					"OtherAgents":
+						{
+							"dictionary": []
+						},
+					"Goals": []
+				}, 
+				{
+					"KnowledgeBase":
+						{
+							"Perspective": "Drunkard",
+							"Knowledge":
+								{
+									"SELF":
+										{
+											"Has(Floor)": "Customer, 1",
+											"Can(Serve)": "False, 1",
+											"Is(Drunkard)": "True, 1"
+										}
+								}
+						},
+					"BodyName": "Male",
+					"VoiceName": "Male",
+					"EmotionalState":
+						{
+							"Mood": 0,
+							"initialTick": 0,
+							"EmotionalPool": [],
+							"AppraisalConfiguration":
+								{
+									"HalfLifeDecayConstant": 0.5,
+									"EmotionInfluenceOnMoodFactor": 0.3,
+									"MoodInfluenceOnEmotionFactor": 0.3,
+									"MinimumMoodValueForInfluencingEmotions": 0.5,
+									"EmotionalHalfLifeDecayTime": 15,
+									"MoodHalfLifeDecayTime": 60
+								}
+						},
+					"AutobiographicMemory":
+						{
+							"Tick": 0,
+							"records": []
+						},
+					"OtherAgents":
+						{
+							"dictionary": []
+						},
+					"Goals": []
+				}],
+			"WorldModel":
+				{
+					"Effects":
+						{
+							"dictionary": [
+								{
+									"key": "Event(Action-End, [s], Speak(*, [ns], *, *), [t])",
+									"value": [
+										{
+											"PropertyName": "DialogueState([s])",
+											"NewValue": "[ns]",
+											"ObserverAgent": "[t]"
+										}, 
+										{
+											"PropertyName": "Has(Floor)",
+											"NewValue": "[t]",
+											"ObserverAgent": "*"
+										}, 
+										{
+											"PropertyName": "DialogueState([t])",
+											"NewValue": "[ns]",
+											"ObserverAgent": "[s]"
+										}]
+								}, 
+								{
+									"key": "Event(Action-End, Customer, Speak(*, Interruption1, *, *), Bartender)",
+									"value": [
+										{
+											"PropertyName": "Has(Floor)",
+											"NewValue": "Drunkard",
+											"ObserverAgent": "*"
+										}, 
+										{
+											"PropertyName": "DialogueState(Drunkard)",
+											"NewValue": "Interruption1",
+											"ObserverAgent": "Bartender"
+										}, 
+										{
+											"PropertyName": "DialogueState(Bartender)",
+											"NewValue": "Interruption1",
+											"ObserverAgent": "Drunkard"
+										}, 
+										{
+											"PropertyName": "DialogueState(Bartender)",
+											"NewValue": "Nothing",
+											"ObserverAgent": "Customer"
+										}, 
+										{
+											"PropertyName": "DialogueState(Customer)",
+											"NewValue": "Nothing",
+											"ObserverAgent": "Bartender"
+										}]
+								}, 
+								{
+									"key": "Event(Action-End, Drunkard, Speak(*, [ns], ResumeConversation, *), Bartender)",
+									"value": [
+										{
+											"PropertyName": "Has(Floor)",
+											"NewValue": "Bartender",
+											"ObserverAgent": "*"
+										}, 
+										{
+											"PropertyName": "DialogueState(Drunkard)",
+											"NewValue": "Nothing",
+											"ObserverAgent": "Bartender"
+										}, 
+										{
+											"PropertyName": "DialogueState(Bartender)",
+											"NewValue": "Nothing",
+											"ObserverAgent": "Drunkard"
+										}, 
+										{
+											"PropertyName": "DialogueState(Bartender)",
+											"NewValue": "[ns]",
+											"ObserverAgent": "Customer"
+										}, 
+										{
+											"PropertyName": "DialogueState(Customer)",
+											"NewValue": "[ns]",
+											"ObserverAgent": "Bartender"
+										}]
+								}, 
+								{
+									"key": "Event(Action-End, Customer, Speak(*, Interruption2, *, *), Bartender)",
+									"value": [
+										{
+											"PropertyName": "Has(Floor)",
+											"NewValue": "Drunkard",
+											"ObserverAgent": "*"
+										}, 
+										{
+											"PropertyName": "DialogueState(Bartender)",
+											"NewValue": "Nothing",
+											"ObserverAgent": "Customer"
+										}, 
+										{
+											"PropertyName": "DialogueState(Customer)",
+											"NewValue": "Nothing",
+											"ObserverAgent": "Bartender"
+										}, 
+										{
+											"PropertyName": "DialogueState(Drunkard)",
+											"NewValue": "Interruption2",
+											"ObserverAgent": "Bartender"
+										}, 
+										{
+											"PropertyName": "DialogueState(Bartender)",
+											"NewValue": "Interruption2",
+											"ObserverAgent": "Drunkard"
+										}]
+								}, 
+								{
+									"key": "Event(Action-End, Customer, Speak(*, Interruption3, *, *), Bartender)",
+									"value": [
+										{
+											"PropertyName": "Has(Floor)",
+											"NewValue": "Drunkard",
+											"ObserverAgent": "*"
+										}, 
+										{
+											"PropertyName": "DialogueState(Bartender)",
+											"NewValue": "Nothing",
+											"ObserverAgent": "Customer"
+										}, 
+										{
+											"PropertyName": "DialogueState(Customer)",
+											"NewValue": "Nothing",
+											"ObserverAgent": "Bartender"
+										}, 
+										{
+											"PropertyName": "DialogueState(Drunkard)",
+											"NewValue": "Interruption3",
+											"ObserverAgent": "Bartender"
+										}, 
+										{
+											"PropertyName": "DialogueState(Bartender)",
+											"NewValue": "Interruption3",
+											"ObserverAgent": "Drunkard"
+										}]
+								}]
+						},
+					"Priorities":
+						{
+							"dictionary": [
+								{
+									"key": "Event(Action-End, [s], Speak(*, [ns], *, *), [t])",
+									"value": 1
+								}, 
+								{
+									"key": "Event(Action-End, Waiter, Cook, *)",
+									"value": 1
+								}, 
+								{
+									"key": "Event(Action-End, [s], Cook, *)",
+									"value": 1
+								}, 
+								{
+									"key": "Event(Action-End, [s], Serve(Drink), [t])",
+									"value": 1
+								}, 
+								{
+									"key": "Event(Action-End, Bartender, Serve(Drink), Customer)",
+									"value": 1
+								}, 
+								{
+									"key": "Event(Action-End, Bartender, DuplicateServeDrink, Customer)",
+									"value": 1
+								}, 
+								{
+									"key": "Event(Action-End, [s], DuplicateSpeak(*, [ns], *, *), [t])",
+									"value": 1
+								}, 
+								{
+									"key": "Event(Action-End, Customer, DuplicateTakeSip, Customer)",
+									"value": 1
+								}, 
+								{
+									"key": "Event(Action-End, Customer, TakeHappierSip, Customer)",
+									"value": 1
+								}, 
+								{
+									"key": "Event(Action-End, Customer, TakeSip2, Customer)",
+									"value": 1
+								}, 
+								{
+									"key": "Event(Action-End, Customer, DuplicateTakeAnotherSip, Customer)",
+									"value": 1
+								}, 
+								{
+									"key": "Event(Action-End, Bartender, Speak(PaymentBest, BestEnding, *, *), Customer)",
+									"value": 2
+								}, 
+								{
+									"key": "Event(Action-End, Customer, Speak(Order, Interruption1, *, *), Bartender)",
+									"value": 2
+								}, 
+								{
+									"key": "Event(Action-End, Customer, DuplicateSpeak(Order, Interruption1, *, *), Bartender)",
+									"value": 1
+								}, 
+								{
+									"key": "Event(Action-End, Drunkard, Speak(Mumbling, OrderResponse, *, *), Bartender)",
+									"value": 2
+								}, 
+								{
+									"key": "Event(Action-End, Drunkard, Speak(*, [ns], ResumeConversation, *), Bartender)",
+									"value": 2
+								}, 
+								{
+									"key": "Event(Action-End, Customer, Speak(*, Interruption1, *, *), Bartender)",
+									"value": 2
+								}, 
+								{
+									"key": "Event(Action-End, Customer, DuplicateSpeak(*, Interruption1, *, *), Bartender)",
+									"value": 2
+								}, 
+								{
+									"key": "Event(Action-End, Customer, Speak(*, Interruption2, *, *), Bartender)",
+									"value": 2
+								}, 
+								{
+									"key": "Event(Action-End, Customer, DuplicateSpeak(*, Interruption2, *, *), Bartender)",
+									"value": 2
+								}, 
+								{
+									"key": "Event(Action-End, Customer, Speak(*, Interruption3, *, *), Bartender)",
+									"value": 2
+								}]
+						}
+				}
+		},
+	"types": [
+		{
+			"TypeId": 0,
+			"ClassName": "IntegratedAuthoringTool.IntegratedAuthoringToolAsset, IntegratedAuthoringTool, Version=1.7.0.0, Culture=neutral, PublicKeyToken=null"
+		}]
+}
