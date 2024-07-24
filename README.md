@@ -1,9 +1,12 @@
 # **Interactive Storytelling with the FAtiMA Toolkit**
-This project, originally an evaluation component for the Artificial Intelligence in Games course (2023/2024), talking place in Instituto Superior Técnico, University of Lisbon, aimed to explore **interactive storytelling in video games** by exploiting the **[FAtiMA-Toolkit](https://github.com/GAIPS/FAtiMA-Toolkit)**, **which harnesses the power of emotional decision making, emotional appraisal and social importance to create and convey believable interactions**.
+​"It was just another usual night at the run-dow Missed Chance when a mysterious customer ​interrupts the lethargic monoty of your job. Between poetry citations and random rants, try to figure out the stranger's story, exploring the different outcomes and paying attention to how your interactions influence the other character's emotions and responses..."
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/649151dd-056b-4e73-a26b-3a06ac41a3b7" />
+  <img src="![bartender](https://github.com/user-attachments/assets/bb905197-ad43-483c-a50e-878c030a734d)
+" />
 </p>
+
+This project, originally an evaluation component for the Artificial Intelligence in Games course (2023/2024), talking place in Instituto Superior Técnico, University of Lisbon, aimed to explore **interactive storytelling in video games** by exploiting the **[FAtiMA-Toolkit](https://github.com/GAIPS/FAtiMA-Toolkit)**, **which harnesses the power of emotional decision making, emotional appraisal and social importance to create and convey believable interactions**.
 
 The following document indicates how to access the source code, utilise the executable application and control the program. It also details the manner through which a story scenario was implemented, the design choices made and some comments considered to be overall relevant to the final project.
 
@@ -13,13 +16,8 @@ The project's source files can be downloaded from this repository. To open the p
 To test the application, only the files contained in the "Build" folder are necessary. Once those files are downloaded, simply start the executable (see the controls below).
 
 ## **Application's Controls**
-
-Main Menu:
-- **LMB** interacts with the main menu's buttons, selecting the decision making algorithm and exiting the application.
-
-In Simulation:
-- **Esc** exits to the main menu.
-
+- **LMB** interacts with the application's buttons.
+- **Esc** exits to the main menu.​
 
 ## **Development - Test Scenario**
 Before building a main story, a simple test scenario was implemented in FAtiMA, considering the prompt below. The resulting *.json* files are called *introductory_scenario*, which holds information regarding the scenario itself, and *introductory_scenario_cogrules*, which takes into account necessary cognitive rules. These are the two main file types when building a scenario in FAtiMA, and can be encountered [here](https://github.com/zorrocrisis/InteractiveStorytelling_FAtiMA/tree/main/Assets/StreamingAssets/SingleCharacter).
