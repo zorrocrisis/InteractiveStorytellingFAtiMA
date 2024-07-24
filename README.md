@@ -1,25 +1,22 @@
 # **Interactive Storytelling with the FAtiMA Toolkit**
-This project, originally an evaluation component for the Artificial Intelligence in Games course (2023/2024), talking place in Instituto Superior Técnico, University of Lisbon, aimed to explore **interactive storytelling in video games** by exploiting the **[FAtiMA-Toolkit](https://github.com/GAIPS/FAtiMA-Toolkit)**, **which harnesses the power of emotional decision making, emotional appraisal and social importance to create and convey believable interactions**.
+​"It was just another usual night at the run-dow Missed Chance when a mysterious customer ​interrupts the lethargic monoty of your job. Between poetry citations and random rants, try to figure out the stranger's story, exploring the different outcomes and paying attention to how your interactions influence the other character's emotions and responses..."
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/649151dd-056b-4e73-a26b-3a06ac41a3b7" />
+  <img src="https://github.com/user-attachments/assets/bb905197-ad43-483c-a50e-878c030a734d" />
 </p>
+
+This project, originally an evaluation component for the Artificial Intelligence in Games course (2023/2024), talking place in Instituto Superior Técnico, University of Lisbon, aimed to explore **interactive storytelling in video games** by exploiting the **[FAtiMA-Toolkit](https://github.com/GAIPS/FAtiMA-Toolkit)**, **which harnesses the power of emotional decision making, emotional appraisal and social importance to create and convey believable interactions**.
 
 The following document indicates how to access the source code, utilise the executable application and control the program. It also details the manner through which a story scenario was implemented, the design choices made and some comments considered to be overall relevant to the final project.
 
 ## **Source Files and Application**
 The project's source files can be downloaded from this repository. To open the program using Unity (v.2021.3.10f1), simply clone the repository and open the project utilising Unity Hub.
 
-To test the application, only the files contained in the "Build" folder are necessary. Once those files are downloaded, simply start the executable (see the controls below).
+To test the application, please visti [this itch.io page](https://zorrocrisis.itch.io/bartender-trouble) and download the executable file. Once those files are downloaded, simply unzip them and start the executable (see the controls below).
 
 ## **Application's Controls**
-
-Main Menu:
-- **LMB** interacts with the main menu's buttons, selecting the decision making algorithm and exiting the application.
-
-In Simulation:
-- **Esc** exits to the main menu.
-
+- **LMB** interacts with the application's buttons.
+- **Esc** exits to the main menu.​
 
 ## **Development - Test Scenario**
 Before building a main story, a simple test scenario was implemented in FAtiMA, considering the prompt below. The resulting *.json* files are called *introductory_scenario*, which holds information regarding the scenario itself, and *introductory_scenario_cogrules*, which takes into account necessary cognitive rules. These are the two main file types when building a scenario in FAtiMA, and can be encountered [here](https://github.com/zorrocrisis/InteractiveStorytelling_FAtiMA/tree/main/Assets/StreamingAssets/SingleCharacter).
@@ -29,7 +26,7 @@ Before building a main story, a simple test scenario was implemented in FAtiMA, 
 After identifying **two different emotional agents** (Peter and Waiter), specific **Beliefs were created to satisfy the needs and fiction of the story** – *Has(Hamburger)*, *Has(Money)* and *Is(Hungry)*. Through FAtiMA's **Emotional Decision Making** tab, **Action Rules were implemented to account for the different speaking Styles (Polite and Rude)** and the dialogue’s evolution with the Cook action, which in turn was created in the World Model tab. Moreover, **Appraisal Rules allowed the agents’ dialogue to directly influence their mood** (although in a basic way, in this case only using Desirability) and, finally, the dialogue states and corresponding utterances were developed in the Dialogue Editor. The resulting dialogue graph is shown here:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/63e0ace0-ed35-4a70-959a-33610e422dae" />
+  <img src="https://github.com/user-attachments/assets/d819db0a-d676-45db-8b97-1ac0b0784e97" />
 </p>
 
 The whole scenario is built around 12 dialogue states, being important to mention the Cook action allows a “jump” from the Waiting sate to the Serving state (just like in a real restaurant).
@@ -43,16 +40,16 @@ The second and final implemented scenario did not have a story prompt to follow 
 
 After some brainstorming, it was decided the final scenario would be structured around a bar called *Missed Chance*, in which the Bartender interacts with two other role-play characters: the Drunkard (aka, Earl) and the Customer. The scenario begins with the Customer entering the bar, ordering a drink and striking a conversation with the Bartender, which unexpectedly unfolds into a weird and/or wholesome sequence of reflections and food for thought. We could state the overall theme of the scenario is empathy – the player (the Bartender) succeeds by helping the Customer.
 
-![imagem](https://github.com/user-attachments/assets/ce699757-552f-40fb-8173-2afb12666ad6)
+![Screenshot 2024-07-23 152520](https://github.com/user-attachments/assets/99fe5a77-8646-41a6-af99-68abe41188f7)
 
 Considering the previous information, four **different speaking styles were implemented**: Heartless, Empathic, Sad and Nostalgic. **The first two are mainly employed to convey emotions which result from direct interactions with other agents**. For example, if the Bartender chooses to speak with empathy towards the Customer, the latter will feel a sense of Desirability and Praiseworthiness for the former, in turn originating emotions liked Gratitude, Joy and Admiration according to the **OCC Model** (unfortunately, some of these are not expressed through the character models used in Unity due to technical limitations). **The two other speaking styles**, Sad and Nostalgic, are linked to emotions that agents feel during dialogue but **are not exactly a direct result of interactions with other agents**. This contrasts with the approach previously mentioned and used in the first scenario. As an example, let us consider the following section of the dialogue tree.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f2457930-ab4f-44ab-9497-9762f5872138" />
+  <img src="https://github.com/user-attachments/assets/a8fff5cc-77e8-4201-99bd-b7c9af511d51" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/3d233149-dea2-4bf6-8965-2d54f1f4280a" />
+  <img src="https://github.com/user-attachments/assets/c380305d-4639-4fa6-aa0e-f3a89d51bae5" />
 </p>
 
 When the Bartender enters the *Clarity1Response* state, the agent will have Empathic and Heartless speaking options available. However, instead of an Empathic response only leading to another certain positive reply (like in the first scenario), the agents enter the *Conversation1* state, which still possesses a likelihood of performing a Sad speak action.
@@ -64,21 +61,21 @@ Another relevant authoring tool component was also implemented in this scenario 
 In total, there are **three main endings**, which highly depend on whether the Bartender manages to help the Customer. As previously mentioned, the *BestEnding* is “hidden” behind a dialogue option only unlockable through a high Social Importance perspective of the Bartender. The *NeutralEnding* and *BadEnding* can both be achieved during the last stages of the dialogue without any restriction. Either way, once the scenario ends, there is a Unity UI indication of which ending was reached, alongside a final message related to empathy.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1edddb7c-1819-417d-8e3b-b3081aec5504" />
+  <img src="https://github.com/user-attachments/assets/60592612-f631-45d4-957b-c77c8d543c31" />
 </p>
 
 So far, the scenario’s third agent, the Drunkard, hasn’t really been mentioned… This character serves almost as a comic relief, interrupting the dialogue between the two other characters. These **interruptions are based in actions that command changes in dialogue states and in Meanings attributed to speak actions**, through which the conversation is expected to resume (speak actions with a *ResumeConversation* Meaning). The combination of these factors allows **smooth transitions between the Bartender-Customer dialogues and the Bartender-Drunkard dialogues**.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1f884b02-68ad-4e6b-b0b3-94c6074be02c" />
+  <img src="https://github.com/user-attachments/assets/d61355fc-0ed1-4970-a2c5-c83e559fac58" />
 </p>
 
 Finally, it is worth leaving some comments related to **Unity’s implementation of the scenario**:
 
 - The connection between the FAtiMA-Toolkit and the Unity initially brought some minor problems: although in the authoring tool’s simulator the dialogue actions of the same style (and same dialogue state) were shuffled and randomly picked by the agents, **Unity seemed to only select a single dialogue option of a given style (and of a given state) each run**. This issue led to **limiting dialogue sequences and bland interactions**. To overcome said issue, some **Action Rules were created to separate the dialogue options with the same styles into different groups with an equal priority rating** (the Meaning parameter of the speak actions was used for this effect – Good2, Sad2, Happy1, ChitChat4, Inspiration2 are just some examples). Consequently, Unity is now forced to pick between actions with the same priority, thus randomizing the dialogue options;
-  
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7346a26a-cebf-40b0-a92a-f0d931b017e7" />
+  <img src="https://github.com/user-attachments/assets/274ba020-6664-474d-a4fe-0fb480ce545a" />
 </p>
 
 - In this scenario, **non-speak actions** (like the Cook action in the previous scenario) **were not implemented, due to time constraints**. In their place, there are dialogue options with asterisks on both sides representing an action that could, in theory, be created inside Unity in a more interactive way (linked to resource management, for example). Despite this, a simple showcase of how these actions can provide a more engaging storytelling experience can be witnessed at the end of the *FinalOrder* state, where a cup is placed near the Customer and a sound effect of liquid pouring is heard (done with the aid of a flag - *serveDrink* - which becomes true after reaching the aforementioned state).
