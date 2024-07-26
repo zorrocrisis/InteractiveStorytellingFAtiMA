@@ -12,7 +12,7 @@ The following document indicates how to access the source code, utilise the exec
 ## **Source Files and Application**
 The project's source files can be downloaded from this repository. To open the program using Unity (v.2021.3.10f1), simply clone the repository and open the project utilising Unity Hub.
 
-To test the application, please visti [this itch.io page](https://zorrocrisis.itch.io/bartender-trouble) and download the executable file. Once those files are downloaded, simply unzip them and start the executable (see the controls below).
+To test the application, please visit [this itch.io page](https://zorrocrisis.itch.io/bartender-trouble) and download the executable file. Once those files are downloaded, simply unzip them and start the executable (see the controls below).
 
 ## **Application's Controls**
 - **LMB** interacts with the application's buttons.
