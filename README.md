@@ -5,7 +5,7 @@
   <img src="https://github.com/user-attachments/assets/bb905197-ad43-483c-a50e-878c030a734d" />
 </p>
 
-This project, originally an evaluation component for the Artificial Intelligence in Games course (2023/2024), talking place in Instituto Superior Técnico, University of Lisbon, aimed to explore **interactive storytelling in video games** by exploiting the **[FAtiMA-Toolkit](https://github.com/GAIPS/FAtiMA-Toolkit)**, **which harnesses the power of emotional decision making, emotional appraisal and social importance to create and convey believable interactions**.
+This project, originally an evaluation component for the Artificial Intelligence in Games course (2022/2023), talking place in Instituto Superior Técnico, University of Lisbon, aimed to explore **interactive storytelling in video games** by exploiting the **[FAtiMA-Toolkit](https://github.com/GAIPS/FAtiMA-Toolkit)**, **which harnesses the power of emotional decision making, emotional appraisal and social importance to create and convey believable interactions**.
 
 The following document indicates how to access the source code, utilise the executable application and control the program. It also details the manner through which a story scenario was implemented, the design choices made and some comments considered to be overall relevant to the final project.
 
